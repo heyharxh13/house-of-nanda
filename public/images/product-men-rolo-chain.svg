@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="mrc" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F5F5F5"/>
+      <stop offset="100%" stop-color="#E5E5E5"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#mrc)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient></defs>
+<!-- Thick rolo chain U-shape -->
+<g filter="url(#shdw2)">
+<rect x="137.0" y="425.0" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(-63.0 155.0 435.0)"/>
+    <rect x="145.0" y="429.0" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(-63.0 155.0 435.0)"/><rect x="156.6" y="386.6" width="36" height="28" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(-60.9 174.6 396.6)"/>
+    <rect x="164.6" y="390.6" width="10" height="20" rx="4" fill="white" opacity="0.2" transform="rotate(-60.9 174.6 396.6)"/><rect x="176.2" y="351.4" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(-58.5 194.2 361.4)"/>
+    <rect x="184.2" y="355.4" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(-58.5 194.2 361.4)"/><rect x="195.8" y="319.4" width="36" height="28" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(-55.8 213.8 329.4)"/>
+    <rect x="203.8" y="323.4" width="10" height="20" rx="4" fill="white" opacity="0.2" transform="rotate(-55.8 213.8 329.4)"/><rect x="215.4" y="290.6" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(-52.6 233.4 300.6)"/>
+    <rect x="223.4" y="294.6" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(-52.6 233.4 300.6)"/><rect x="235.0" y="265.0" width="36" height="28" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(-48.8 253.0 275.0)"/>
+    <rect x="243.0" y="269.0" width="10" height="20" rx="4" fill="white" opacity="0.2" transform="rotate(-48.8 253.0 275.0)"/><rect x="254.6" y="242.6" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(-44.4 272.6 252.6)"/>
+    <rect x="262.6" y="246.6" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(-44.4 272.6 252.6)"/><rect x="274.2" y="223.4" width="36" height="28" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(-39.2 292.2 233.4)"/>
+    <rect x="282.2" y="227.4" width="10" height="20" rx="4" fill="white" opacity="0.2" transform="rotate(-39.2 292.2 233.4)"/><rect x="293.8" y="207.4" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(-33.1 311.8 217.4)"/>
+    <rect x="301.8" y="211.4" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(-33.1 311.8 217.4)"/><rect x="313.4" y="194.6" width="36" height="28" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(-26.1 331.4 204.6)"/>
+    <rect x="321.4" y="198.6" width="10" height="20" rx="4" fill="white" opacity="0.2" transform="rotate(-26.1 331.4 204.6)"/><rect x="333.0" y="185.0" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(-18.1 351.0 195.0)"/>
+    <rect x="341.0" y="189.0" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(-18.1 351.0 195.0)"/><rect x="352.6" y="178.6" width="36" height="28" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(-9.3 370.6 188.6)"/>
+    <rect x="360.6" y="182.6" width="10" height="20" rx="4" fill="white" opacity="0.2" transform="rotate(-9.3 370.6 188.6)"/><rect x="372.2" y="175.4" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(0.0 390.2 185.4)"/>
+    <rect x="380.2" y="179.4" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(0.0 390.2 185.4)"/><rect x="391.8" y="175.4" width="36" height="28" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(9.3 409.8 185.4)"/>
+    <rect x="399.8" y="179.4" width="10" height="20" rx="4" fill="white" opacity="0.2" transform="rotate(9.3 409.8 185.4)"/><rect x="411.4" y="178.6" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(18.1 429.4 188.6)"/>
+    <rect x="419.4" y="182.6" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(18.1 429.4 188.6)"/><rect x="431.0" y="185.0" width="36" height="28" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(26.1 449.0 195.0)"/>
+    <rect x="439.0" y="189.0" width="10" height="20" rx="4" fill="white" opacity="0.2" transform="rotate(26.1 449.0 195.0)"/><rect x="450.6" y="194.6" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(33.1 468.6 204.6)"/>
+    <rect x="458.6" y="198.6" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(33.1 468.6 204.6)"/><rect x="470.2" y="207.4" width="36" height="28" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(39.2 488.2 217.4)"/>
+    <rect x="478.2" y="211.4" width="10" height="20" rx="4" fill="white" opacity="0.2" transform="rotate(39.2 488.2 217.4)"/><rect x="489.8" y="223.4" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(44.4 507.8 233.4)"/>
+    <rect x="497.8" y="227.4" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(44.4 507.8 233.4)"/><rect x="509.4" y="242.6" width="36" height="28" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(48.8 527.4 252.6)"/>
+    <rect x="517.4" y="246.6" width="10" height="20" rx="4" fill="white" opacity="0.2" transform="rotate(48.8 527.4 252.6)"/><rect x="529.0" y="265.0" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(52.6 547.0 275.0)"/>
+    <rect x="537.0" y="269.0" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(52.6 547.0 275.0)"/><rect x="548.6" y="290.6" width="36" height="28" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(55.8 566.6 300.6)"/>
+    <rect x="556.6" y="294.6" width="10" height="20" rx="4" fill="white" opacity="0.2" transform="rotate(55.8 566.6 300.6)"/><rect x="568.2" y="319.4" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(58.5 586.2 329.4)"/>
+    <rect x="576.2" y="323.4" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(58.5 586.2 329.4)"/><rect x="587.8" y="351.4" width="36" height="28" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(60.9 605.8 361.4)"/>
+    <rect x="595.8" y="355.4" width="10" height="20" rx="4" fill="white" opacity="0.2" transform="rotate(60.9 605.8 361.4)"/><rect x="607.4" y="386.6" width="36" height="20" rx="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="2" transform="rotate(63.0 625.4 396.6)"/>
+    <rect x="615.4" y="390.6" width="10" height="12" rx="4" fill="white" opacity="0.2" transform="rotate(63.0 625.4 396.6)"/>
+</g>
+<!-- Lobster clasp -->
+<g transform="translate(155,183)">
+  <rect x="-20" y="-16" width="40" height="32" rx="10" fill="url(#silverV)" stroke="#808080" stroke-width="2"/>
+  <rect x="-8" y="-8" width="16" height="16" rx="5" fill="#D8D8D8"/>
+</g>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 STERLING SILVER · ROLO SIGNATURE CHAIN</text>
+</svg>

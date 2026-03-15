@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bgc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d0d"/>
+      <stop offset="100%" style="stop-color:#1e1a14"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgc)"/>
+  <circle cx="400" cy="280" r="160" fill="none" stroke="#c9a84c" stroke-width="0.8" opacity="0.2"/>
+  <circle cx="400" cy="280" r="120" fill="none" stroke="#c9a84c" stroke-width="0.6" opacity="0.15"/>
+  <text x="400" y="288" font-family="Georgia, serif" font-size="16" fill="#c9a84c" text-anchor="middle" letter-spacing="5" opacity="0.7">COLLECTION</text>
+  <text x="400" y="480" font-family="Georgia, serif" font-size="10" fill="#c9a84c" text-anchor="middle" letter-spacing="3" opacity="0.4">PHOTO COMING SOON</text>
+</svg>

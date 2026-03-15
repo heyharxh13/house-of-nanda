@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="mmr" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F5F5F5"/>
+      <stop offset="100%" stop-color="#E5E5E5"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#mmr)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient></defs>
+<ellipse cx="400" cy="570" rx="170" ry="20" fill="#0000018" filter="url(#shadow)"/>
+<!-- Three rings at slightly different heights - varying widths -->
+<!-- Ring 3 - thickest, back -->
+<g transform="translate(0,25)">
+  <ellipse cx="400" cy="400" rx="136" ry="40" fill="none" stroke="url(#silverSheen)" stroke-width="22"/>
+  <path d="M 264,400 Q 264,495 400,498 Q 536,495 536,400" fill="url(#silverV)" stroke="url(#silver)" stroke-width="2"/>
+</g>
+<!-- Ring 2 - medium -->
+<g transform="translate(0,5)">
+  <ellipse cx="400" cy="380" rx="136" ry="40" fill="none" stroke="url(#silverSheen)" stroke-width="14"/>
+  <path d="M 264,380 Q 264,475 400,478 Q 536,475 536,380" fill="url(#silverV)" stroke="url(#silver)" stroke-width="1.5"/>
+</g>
+<!-- Ring 1 - thinnest, front -->
+<ellipse cx="400" cy="360" rx="136" ry="40" fill="none" stroke="url(#silverSheen)" stroke-width="8"/>
+<path d="M 264,360 Q 264,455 400,458 Q 536,455 536,360" fill="url(#silverV)" stroke="url(#silver)" stroke-width="1.5"/>
+<!-- Polished highlight on front ring -->
+<ellipse cx="352" cy="358" rx="32" ry="8" fill="white" opacity="0.3"/>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 SILVER · SET OF 3 · MERIDIAN RINGS</text>
+</svg>

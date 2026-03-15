@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="plb" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F5F5F5"/>
+      <stop offset="100%" stop-color="#E5E5E5"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#plb)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient></defs>
+<ellipse cx="400" cy="570" rx="240" ry="20" fill="#0000001C" filter="url(#shadow)"/>
+<!-- Heavy link bracelet -->
+<g filter="url(#shdw2)">
+<rect x="150" y="320" width="52" height="70" rx="14" fill="url(#silverSheen)" stroke="#808080" stroke-width="2.5"/>
+    <rect x="158" y="332" width="36" height="46" rx="10" fill="none" stroke="#D0D0D0" stroke-width="1.5"/>
+    <rect x="164" y="344" width="24" height="22" rx="6" fill="#E5E5E5" opacity="0.6"/><rect x="208" y="330" width="40" height="52" rx="12" fill="url(#silverV)" stroke="#909090" stroke-width="2"/>
+    <rect x="216" y="340" width="24" height="32" rx="8" fill="none" stroke="#C8C8C8" stroke-width="1.2"/><rect x="254" y="320" width="52" height="70" rx="14" fill="url(#silverSheen)" stroke="#808080" stroke-width="2.5"/>
+    <rect x="262" y="332" width="36" height="46" rx="10" fill="none" stroke="#D0D0D0" stroke-width="1.5"/>
+    <rect x="268" y="344" width="24" height="22" rx="6" fill="#E5E5E5" opacity="0.6"/><rect x="312" y="330" width="40" height="52" rx="12" fill="url(#silverV)" stroke="#909090" stroke-width="2"/>
+    <rect x="320" y="340" width="24" height="32" rx="8" fill="none" stroke="#C8C8C8" stroke-width="1.2"/><rect x="358" y="320" width="52" height="70" rx="14" fill="url(#silverSheen)" stroke="#808080" stroke-width="2.5"/>
+    <rect x="366" y="332" width="36" height="46" rx="10" fill="none" stroke="#D0D0D0" stroke-width="1.5"/>
+    <rect x="372" y="344" width="24" height="22" rx="6" fill="#E5E5E5" opacity="0.6"/><rect x="416" y="330" width="40" height="52" rx="12" fill="url(#silverV)" stroke="#909090" stroke-width="2"/>
+    <rect x="424" y="340" width="24" height="32" rx="8" fill="none" stroke="#C8C8C8" stroke-width="1.2"/><rect x="462" y="320" width="52" height="70" rx="14" fill="url(#silverSheen)" stroke="#808080" stroke-width="2.5"/>
+    <rect x="470" y="332" width="36" height="46" rx="10" fill="none" stroke="#D0D0D0" stroke-width="1.5"/>
+    <rect x="476" y="344" width="24" height="22" rx="6" fill="#E5E5E5" opacity="0.6"/><rect x="520" y="330" width="40" height="52" rx="12" fill="url(#silverV)" stroke="#909090" stroke-width="2"/>
+    <rect x="528" y="340" width="24" height="32" rx="8" fill="none" stroke="#C8C8C8" stroke-width="1.2"/><rect x="566" y="320" width="52" height="70" rx="14" fill="url(#silverSheen)" stroke="#808080" stroke-width="2.5"/>
+    <rect x="574" y="332" width="36" height="46" rx="10" fill="none" stroke="#D0D0D0" stroke-width="1.5"/>
+    <rect x="580" y="344" width="24" height="22" rx="6" fill="#E5E5E5" opacity="0.6"/><rect x="624" y="330" width="40" height="52" rx="12" fill="url(#silverV)" stroke="#909090" stroke-width="2"/>
+    <rect x="632" y="340" width="24" height="32" rx="8" fill="none" stroke="#C8C8C8" stroke-width="1.2"/>
+</g>
+<!-- OT clasp -->
+<g transform="translate(680,355)">
+  <rect x="-20" y="-18" width="40" height="36" rx="12" fill="url(#silverV)" stroke="#909090" stroke-width="2"/>
+  <circle cx="0" cy="0" r="10" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5"/>
+  <circle cx="0" cy="0" r="4" fill="#D8D8D8"/>
+</g>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 STERLING SILVER · PEAK LINK BRACELET</text>
+</svg>

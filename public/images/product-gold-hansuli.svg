@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="hs" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FDF9F0"/>
+      <stop offset="100%" stop-color="#EDE5CC"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#hs)"/>
+<defs>
+  <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#E8C96D"/>
+    <stop offset="35%" stop-color="#C9A84C"/>
+    <stop offset="65%" stop-color="#F0D478"/>
+    <stop offset="100%" stop-color="#9A7028"/>
+  </linearGradient>
+  <linearGradient id="goldV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F2D878"/>
+    <stop offset="50%" stop-color="#C9A84C"/>
+    <stop offset="100%" stop-color="#8B6010"/>
+  </linearGradient>
+  <linearGradient id="goldSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#A07030"/>
+    <stop offset="30%" stop-color="#E8C96D"/>
+    <stop offset="60%" stop-color="#C9A84C"/>
+    <stop offset="100%" stop-color="#906820"/>
+  </linearGradient></defs>
+<ellipse cx="400" cy="540" rx="220" ry="20" fill="#0000001A" filter="url(#shadow)"/>
+<!-- Main Hansuli arc - rigid crescent collar -->
+<path d="M 180,310 Q 200,160 400,145 Q 600,160 620,310" fill="none" stroke="url(#goldSheen)" stroke-width="42" stroke-linecap="round"/>
+<path d="M 180,310 Q 200,160 400,145 Q 600,160 620,310" fill="none" stroke="#F5E080" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+<!-- Engraving lines on hansuli -->
+<ellipse cx="200.1" cy="207.7" rx="5" ry="12" fill="#C9A84C" opacity="0.4" transform="rotate(-88 200.1 207.7)"/><ellipse cx="217.3" cy="183.6" rx="5" ry="12" fill="#C9A84C" opacity="0.4" transform="rotate(-66 217.3 183.6)"/><ellipse cx="261.1" cy="163.2" rx="5" ry="12" fill="#C9A84C" opacity="0.4" transform="rotate(-44 261.1 163.2)"/><ellipse cx="325.1" cy="149.7" rx="5" ry="12" fill="#C9A84C" opacity="0.4" transform="rotate(-22 325.1 149.7)"/><ellipse cx="400.0" cy="145.0" rx="5" ry="12" fill="#C9A84C" opacity="0.4" transform="rotate(0 400.0 145.0)"/><ellipse cx="474.9" cy="149.7" rx="5" ry="12" fill="#C9A84C" opacity="0.4" transform="rotate(22 474.9 149.7)"/><ellipse cx="538.9" cy="163.2" rx="5" ry="12" fill="#C9A84C" opacity="0.4" transform="rotate(44 538.9 163.2)"/><ellipse cx="582.7" cy="183.6" rx="5" ry="12" fill="#C9A84C" opacity="0.4" transform="rotate(66 582.7 183.6)"/><ellipse cx="599.9" cy="207.7" rx="5" ry="12" fill="#C9A84C" opacity="0.4" transform="rotate(88 599.9 207.7)"/>
+<!-- Mandana pattern overlay on collar -->
+<path d="M 200,305 Q 210,200 400,185 Q 590,200 600,305" fill="none" stroke="#F5E080" stroke-width="1.5" opacity="0.4"/>
+<path d="M 220,315 Q 230,210 400,195 Q 570,210 580,315" fill="none" stroke="#F5E080" stroke-width="1" opacity="0.3"/>
+<!-- End caps -->
+<ellipse cx="180" cy="312" rx="18" ry="22" fill="url(#goldV)" stroke="#8B6010" stroke-width="1"/>
+<ellipse cx="620" cy="312" rx="18" ry="22" fill="url(#goldV)" stroke="#8B6010" stroke-width="1"/>
+<!-- Central pendant drop -->
+<g filter="url(#shadow)">
+  <line x1="400" y1="255" x2="400" y2="380" stroke="url(#gold)" stroke-width="5"/>
+  <path d="M 370,380 Q 400,440 430,380 Z" fill="url(#goldV)" stroke="#8B6010" stroke-width="1.5"/>
+  <path d="M 380,385 Q 400,425 420,385" fill="none" stroke="#F5E080" stroke-width="1" opacity="0.5"/>
+  
+  <polygon points="400,381 409.8,390.8 412.6,399.2 400,409 387.4,399.2 390.2,390.8" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="400,381 409.8,390.8 400,395" fill="white" opacity="0.7"/>
+  <polygon points="400,395 412.6,399.2 400,409" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="400" y1="381" x2="400" y2="409" stroke="#AED6F1" stroke-width="0.5"/>
+</g>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">22KT GOLD · HANSULI NECKPIECE</text>
+</svg>

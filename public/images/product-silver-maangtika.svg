@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="smt" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F8F9FC"/>
+      <stop offset="100%" stop-color="#E8ECEF"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#smt)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient></defs>
+<line x1="400" y1="120" x2="400" y2="310" stroke="url(#silver)" stroke-width="2.5"/>
+<circle cx="400" cy="128" r="3.5" fill="url(#silverV)"/><circle cx="400" cy="146" r="3.5" fill="url(#silverV)"/><circle cx="400" cy="164" r="3.5" fill="url(#silverV)"/><circle cx="400" cy="182" r="3.5" fill="url(#silverV)"/><circle cx="400" cy="200" r="3.5" fill="url(#silverV)"/><circle cx="400" cy="218" r="3.5" fill="url(#silverV)"/><circle cx="400" cy="236" r="3.5" fill="url(#silverV)"/><circle cx="400" cy="254" r="3.5" fill="url(#silverV)"/><circle cx="400" cy="272" r="3.5" fill="url(#silverV)"/><circle cx="400" cy="290" r="3.5" fill="url(#silverV)"/>
+<path d="M 400,168 Q 280,172 160,208" fill="none" stroke="url(#silver)" stroke-width="2"/>
+<path d="M 400,168 Q 520,172 640,208" fill="none" stroke="url(#silver)" stroke-width="2"/>
+<circle cx="340" cy="178" r="4.5" fill="url(#silverV)"/>
+  <circle cx="460" cy="178" r="4.5" fill="url(#silverV)"/><circle cx="280" cy="188" r="4.5" fill="url(#silverV)"/>
+  <circle cx="520" cy="188" r="4.5" fill="url(#silverV)"/><circle cx="220" cy="198" r="4.5" fill="url(#silverV)"/>
+  <circle cx="580" cy="198" r="4.5" fill="url(#silverV)"/>
+<ellipse cx="160" cy="210" rx="9" ry="6" fill="url(#silverV)" stroke="#909090" stroke-width="1"/>
+<ellipse cx="640" cy="210" rx="9" ry="6" fill="url(#silverV)" stroke="#909090" stroke-width="1"/>
+<!-- Aipan-patterned disc -->
+<g filter="url(#shadow)">
+  <circle cx="400" cy="330" r="46" fill="url(#silverV)" stroke="#909090" stroke-width="2"/>
+  <!-- Aipan geometric pattern -->
+  <line x1="416.0" y1="330.0" x2="438.0" y2="330.0" stroke="#E0E0E0" stroke-width="1.5" opacity="0.7"/><line x1="408.0" y1="343.9" x2="419.0" y2="362.9" stroke="#E0E0E0" stroke-width="1.5" opacity="0.7"/><line x1="392.0" y1="343.9" x2="381.0" y2="362.9" stroke="#E0E0E0" stroke-width="1.5" opacity="0.7"/><line x1="384.0" y1="330.0" x2="362.0" y2="330.0" stroke="#E0E0E0" stroke-width="1.5" opacity="0.7"/><line x1="392.0" y1="316.1" x2="381.0" y2="297.1" stroke="#E0E0E0" stroke-width="1.5" opacity="0.7"/><line x1="408.0" y1="316.1" x2="419.0" y2="297.1" stroke="#E0E0E0" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="400" cy="330" r="28" fill="none" stroke="#D0D0D0" stroke-width="1.2" opacity="0.6"/>
+  <circle cx="400" cy="330" r="10" fill="url(#silver)"/>
+</g>
+<!-- Teardrop pendant -->
+<g filter="url(#shadow)">
+  <line x1="400" y1="376" x2="400" y2="415" stroke="url(#silver)" stroke-width="2.5"/>
+  <path d="M 375,415 Q 400,500 400,500 Q 425,500 425,415 Q 425,400 400,400 Z" fill="url(#silverV)" stroke="#909090" stroke-width="1.5"/>
+</g>
+<circle cx="443.3" cy="305.0" r="5.5" fill="url(#silverV)" stroke="#909090" stroke-width="0.8"/><circle cx="443.3" cy="355.0" r="5.5" fill="url(#silverV)" stroke="#909090" stroke-width="0.8"/><circle cx="400.0" cy="380.0" r="5.5" fill="url(#silverV)" stroke="#909090" stroke-width="0.8"/><circle cx="356.7" cy="355.0" r="5.5" fill="url(#silverV)" stroke="#909090" stroke-width="0.8"/><circle cx="356.7" cy="305.0" r="5.5" fill="url(#silverV)" stroke="#909090" stroke-width="0.8"/><circle cx="400.0" cy="280.0" r="5.5" fill="url(#silverV)" stroke="#909090" stroke-width="0.8"/>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 SILVER · AIPAN MAANGTIKA</text>
+</svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="fpr" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FDF9F0"/>
+      <stop offset="100%" stop-color="#EDE5CC"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#fpr)"/>
+<defs>
+  <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#E8C96D"/>
+    <stop offset="35%" stop-color="#C9A84C"/>
+    <stop offset="65%" stop-color="#F0D478"/>
+    <stop offset="100%" stop-color="#9A7028"/>
+  </linearGradient>
+  <linearGradient id="goldV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F2D878"/>
+    <stop offset="50%" stop-color="#C9A84C"/>
+    <stop offset="100%" stop-color="#8B6010"/>
+  </linearGradient>
+  <linearGradient id="goldSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#A07030"/>
+    <stop offset="30%" stop-color="#E8C96D"/>
+    <stop offset="60%" stop-color="#C9A84C"/>
+    <stop offset="100%" stop-color="#906820"/>
+  </linearGradient></defs>
+<ellipse cx="400" cy="560" rx="140" ry="18" fill="#0000001A" filter="url(#shadow)"/>
+<!-- Ring band -->
+<ellipse cx="400" cy="420" rx="130" ry="40" fill="none" stroke="url(#goldSheen)" stroke-width="38"/>
+<ellipse cx="400" cy="420" rx="130" ry="40" fill="none" stroke="#F5E080" stroke-width="1.5" opacity="0.4"/>
+<!-- Bottom part of ring band (visible) -->
+<path d="M 270,420 Q 270,520 400,520 Q 530,520 530,420" fill="url(#goldV)" stroke="url(#gold)" stroke-width="2"/>
+<!-- Setting on top of ring -->
+<rect x="325" y="260" width="150" height="50" rx="12" fill="url(#goldV)" stroke="#8B6010" stroke-width="2" filter="url(#shadow)"/>
+<rect x="330" y="265" width="140" height="40" rx="10" fill="url(#gold)" opacity="0.6"/>
+<!-- 5 diamonds in a row -->
+<g>
+    
+  <polygon points="348,273 355.7,280.7 357.9,287.3 348,295 338.1,287.3 340.3,280.7" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="348,273 355.7,280.7 348,284" fill="white" opacity="0.7"/>
+  <polygon points="348,284 357.9,287.3 348,295" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="348" y1="273" x2="348" y2="295" stroke="#AED6F1" stroke-width="0.5"/>
+    <!-- Prongs -->
+    <line x1="348" y1="273" x2="348" y2="268" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="359" y1="284" x2="364" y2="284" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="337" y1="284" x2="332" y2="284" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="348" y1="295" x2="348" y2="300" stroke="#C9A84C" stroke-width="2.5"/>
+  </g><g>
+    
+  <polygon points="374,273 381.7,280.7 383.9,287.3 374,295 364.1,287.3 366.3,280.7" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="374,273 381.7,280.7 374,284" fill="white" opacity="0.7"/>
+  <polygon points="374,284 383.9,287.3 374,295" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="374" y1="273" x2="374" y2="295" stroke="#AED6F1" stroke-width="0.5"/>
+    <!-- Prongs -->
+    <line x1="374" y1="273" x2="374" y2="268" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="385" y1="284" x2="390" y2="284" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="363" y1="284" x2="358" y2="284" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="374" y1="295" x2="374" y2="300" stroke="#C9A84C" stroke-width="2.5"/>
+  </g><g>
+    
+  <polygon points="400,273 407.7,280.7 409.9,287.3 400,295 390.1,287.3 392.3,280.7" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="400,273 407.7,280.7 400,284" fill="white" opacity="0.7"/>
+  <polygon points="400,284 409.9,287.3 400,295" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="400" y1="273" x2="400" y2="295" stroke="#AED6F1" stroke-width="0.5"/>
+    <!-- Prongs -->
+    <line x1="400" y1="273" x2="400" y2="268" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="411" y1="284" x2="416" y2="284" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="389" y1="284" x2="384" y2="284" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="400" y1="295" x2="400" y2="300" stroke="#C9A84C" stroke-width="2.5"/>
+  </g><g>
+    
+  <polygon points="426,273 433.7,280.7 435.9,287.3 426,295 416.1,287.3 418.3,280.7" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="426,273 433.7,280.7 426,284" fill="white" opacity="0.7"/>
+  <polygon points="426,284 435.9,287.3 426,295" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="426" y1="273" x2="426" y2="295" stroke="#AED6F1" stroke-width="0.5"/>
+    <!-- Prongs -->
+    <line x1="426" y1="273" x2="426" y2="268" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="437" y1="284" x2="442" y2="284" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="415" y1="284" x2="410" y2="284" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="426" y1="295" x2="426" y2="300" stroke="#C9A84C" stroke-width="2.5"/>
+  </g><g>
+    
+  <polygon points="452,273 459.7,280.7 461.9,287.3 452,295 442.1,287.3 444.3,280.7" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="452,273 459.7,280.7 452,284" fill="white" opacity="0.7"/>
+  <polygon points="452,284 461.9,287.3 452,295" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="452" y1="273" x2="452" y2="295" stroke="#AED6F1" stroke-width="0.5"/>
+    <!-- Prongs -->
+    <line x1="452" y1="273" x2="452" y2="268" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="463" y1="284" x2="468" y2="284" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="441" y1="284" x2="436" y2="284" stroke="#C9A84C" stroke-width="2.5"/>
+    <line x1="452" y1="295" x2="452" y2="300" stroke="#C9A84C" stroke-width="2.5"/>
+  </g>
+<!-- Engraving on band -->
+<path d="M 300,490 Q 400,510 500,490" fill="none" stroke="#F5E080" stroke-width="1" opacity="0.4"/>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">18KT GOLD · 5 LAB DIAMONDS · PANCHACHULI RING</text>
+</svg>

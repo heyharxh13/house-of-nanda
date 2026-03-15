@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="fmr" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FDF9F0"/>
+      <stop offset="100%" stop-color="#EDE5CC"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#fmr)"/>
+<defs>
+  <linearGradient id="matteGold" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#C8A035"/>
+    <stop offset="40%" stop-color="#B09030"/>
+    <stop offset="100%" stop-color="#806010"/>
+  </linearGradient>
+
+  <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#E8C96D"/>
+    <stop offset="35%" stop-color="#C9A84C"/>
+    <stop offset="65%" stop-color="#F0D478"/>
+    <stop offset="100%" stop-color="#9A7028"/>
+  </linearGradient>
+  <linearGradient id="goldV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F2D878"/>
+    <stop offset="50%" stop-color="#C9A84C"/>
+    <stop offset="100%" stop-color="#8B6010"/>
+  </linearGradient>
+  <linearGradient id="goldSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#A07030"/>
+    <stop offset="30%" stop-color="#E8C96D"/>
+    <stop offset="60%" stop-color="#C9A84C"/>
+    <stop offset="100%" stop-color="#906820"/>
+  </linearGradient>
+</defs>
+<ellipse cx="400" cy="575" rx="155" ry="18" fill="#0000018" filter="url(#shadow)"/>
+<!-- Wide matte gold band -->
+<ellipse cx="400" cy="425" rx="138" ry="42" fill="none" stroke="url(#matteGold)" stroke-width="52"/>
+<path d="M 262,425 Q 262,525 400,528 Q 538,525 538,425" fill="#9A7028" stroke="#806010" stroke-width="2"/>
+<!-- Forged hammered texture on visible portion -->
+<path d="M 280,437 Q 290,431 300,437" fill="none" stroke="#C8A035" stroke-width="1.5" opacity="0.4"/><path d="M 315,437 Q 325,431 335,437" fill="none" stroke="#C8A035" stroke-width="1.5" opacity="0.4"/><path d="M 350,437 Q 360,431 370,437" fill="none" stroke="#C8A035" stroke-width="1.5" opacity="0.4"/><path d="M 385,437 Q 395,431 405,437" fill="none" stroke="#C8A035" stroke-width="1.5" opacity="0.4"/><path d="M 420,437 Q 430,431 440,437" fill="none" stroke="#C8A035" stroke-width="1.5" opacity="0.4"/><path d="M 455,437 Q 465,431 475,437" fill="none" stroke="#C8A035" stroke-width="1.5" opacity="0.4"/><path d="M 490,437 Q 500,431 510,437" fill="none" stroke="#C8A035" stroke-width="1.5" opacity="0.4"/><path d="M 525,437 Q 535,431 545,437" fill="none" stroke="#C8A035" stroke-width="1.5" opacity="0.4"/>
+<!-- Wide face of ring -->
+<rect x="296" y="272" width="208" height="106" rx="12" fill="url(#matteGold)" stroke="#806010" stroke-width="2" filter="url(#shadow)"/>
+<!-- Single polished groove - signature detail -->
+<line x1="304" y1="325" x2="496" y2="325" stroke="#F0D060" stroke-width="4"/>
+<line x1="304" y1="325" x2="496" y2="325" stroke="white" stroke-width="1.5" opacity="0.3"/>
+<!-- Hammered texture suggestion on face -->
+<ellipse cx="320" cy="295" rx="5" ry="3" fill="#B09030" opacity="0.3"/><ellipse cx="360" cy="325" rx="7" ry="5" fill="#B09030" opacity="0.3"/><ellipse cx="400" cy="295" rx="9" ry="3" fill="#B09030" opacity="0.3"/><ellipse cx="440" cy="325" rx="5" ry="5" fill="#B09030" opacity="0.3"/><ellipse cx="480" cy="295" rx="7" ry="3" fill="#B09030" opacity="0.3"/>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">22KT BIS GOLD · FORGED MATTE · BAND RING</text>
+</svg>

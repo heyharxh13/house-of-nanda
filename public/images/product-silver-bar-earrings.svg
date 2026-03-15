@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="sbe" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F8F9FC"/>
+      <stop offset="100%" stop-color="#E8ECEF"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#sbe)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient></defs>
+<ellipse cx="270" cy="620" rx="40" ry="8" fill="#00000012" filter="url(#shadow)"/>
+<ellipse cx="530" cy="620" rx="40" ry="8" fill="#00000012" filter="url(#shadow)"/>
+<!-- LEFT BAR EARRING -->
+<g filter="url(#shdw2)">
+  <!-- Stud post -->
+  <circle cx="270" cy="195" r="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5"/>
+  <circle cx="270" cy="195" r="4" fill="url(#silverV)"/>
+  <!-- Connecting wire -->
+  <line x1="270" y1="203" x2="270" y2="240" stroke="url(#silver)" stroke-width="3"/>
+  <!-- Geometric bar pendant -->
+  <rect x="248" y="240" width="44" height="140" rx="6" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5"/>
+  <!-- Brushed texture lines -->
+  <line x1="252" y1="246" x2="288" y2="246" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="252" y1="262" x2="288" y2="262" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="252" y1="278" x2="288" y2="278" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="252" y1="294" x2="288" y2="294" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="252" y1="310" x2="288" y2="310" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="252" y1="326" x2="288" y2="326" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="252" y1="342" x2="288" y2="342" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="252" y1="358" x2="288" y2="358" stroke="white" stroke-width="0.8" opacity="0.35"/>
+  <!-- Bottom connector accent -->
+  <rect x="252" y="368" width="36" height="8" rx="4" fill="url(#silverV)"/>
+  <!-- Sheen highlight -->
+  <rect x="254" y="244" width="10" height="130" rx="4" fill="white" opacity="0.2"/>
+</g>
+<!-- RIGHT BAR EARRING -->
+<g filter="url(#shdw2)">
+  <circle cx="530" cy="195" r="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5"/>
+  <circle cx="530" cy="195" r="4" fill="url(#silverV)"/>
+  <line x1="530" y1="203" x2="530" y2="240" stroke="url(#silver)" stroke-width="3"/>
+  <rect x="508" y="240" width="44" height="140" rx="6" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5"/>
+  <line x1="512" y1="246" x2="548" y2="246" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="512" y1="262" x2="548" y2="262" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="512" y1="278" x2="548" y2="278" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="512" y1="294" x2="548" y2="294" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="512" y1="310" x2="548" y2="310" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="512" y1="326" x2="548" y2="326" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="512" y1="342" x2="548" y2="342" stroke="white" stroke-width="0.8" opacity="0.35"/><line x1="512" y1="358" x2="548" y2="358" stroke="white" stroke-width="0.8" opacity="0.35"/>
+  <rect x="512" y="368" width="36" height="8" rx="4" fill="url(#silverV)"/>
+  <rect x="514" y="244" width="10" height="130" rx="4" fill="white" opacity="0.2"/>
+</g>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 SILVER · BRUSHED · VERTEX BAR EARRINGS</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="clh" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F8F9FC"/>
+      <stop offset="100%" stop-color="#E8ECEF"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#clh)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient></defs>
+<ellipse cx="270" cy="610" rx="120" ry="16" fill="#00000014" filter="url(#shadow)"/>
+<ellipse cx="530" cy="610" rx="120" ry="14" fill="#00000014" filter="url(#shadow)"/>
+<!-- Generate chain-link hoop circles - LEFT -->
+<g filter="url(#shdw2)">
+<ellipse cx="292.6" cy="252.0" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(10.0 292.6 252.0)"/><ellipse cx="335.0" cy="267.4" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(30.0 335.0 267.4)"/><ellipse cx="369.6" cy="296.4" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(50.0 369.6 296.4)"/><ellipse cx="392.2" cy="335.5" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(70.0 392.2 335.5)"/><ellipse cx="400.0" cy="380.0" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(90.0 400.0 380.0)"/><ellipse cx="392.2" cy="424.5" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(110.0 392.2 424.5)"/><ellipse cx="369.6" cy="463.6" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(130.0 369.6 463.6)"/><ellipse cx="335.0" cy="492.6" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(150.0 335.0 492.6)"/><ellipse cx="292.6" cy="508.0" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(170.0 292.6 508.0)"/><ellipse cx="247.4" cy="508.0" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(190.0 247.4 508.0)"/><ellipse cx="205.0" cy="492.6" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(210.0 205.0 492.6)"/><ellipse cx="170.4" cy="463.6" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(230.0 170.4 463.6)"/><ellipse cx="147.8" cy="424.5" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(250.0 147.8 424.5)"/><ellipse cx="140.0" cy="380.0" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(270.0 140.0 380.0)"/><ellipse cx="147.8" cy="335.5" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(290.0 147.8 335.5)"/><ellipse cx="170.4" cy="296.4" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(310.0 170.4 296.4)"/><ellipse cx="205.0" cy="267.4" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(330.0 205.0 267.4)"/><ellipse cx="247.4" cy="252.0" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(350.0 247.4 252.0)"/>
+<!-- Click back stud -->
+<circle cx="270" cy="250" r="10" fill="url(#silverV)" stroke="#909090" stroke-width="1.5"/>
+</g>
+<!-- RIGHT HOOP -->
+<g filter="url(#shdw2)">
+<ellipse cx="552.6" cy="252.0" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(10.0 552.6 252.0)"/><ellipse cx="595.0" cy="267.4" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(30.0 595.0 267.4)"/><ellipse cx="629.6" cy="296.4" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(50.0 629.6 296.4)"/><ellipse cx="652.2" cy="335.5" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(70.0 652.2 335.5)"/><ellipse cx="660.0" cy="380.0" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(90.0 660.0 380.0)"/><ellipse cx="652.2" cy="424.5" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(110.0 652.2 424.5)"/><ellipse cx="629.6" cy="463.6" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(130.0 629.6 463.6)"/><ellipse cx="595.0" cy="492.6" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(150.0 595.0 492.6)"/><ellipse cx="552.6" cy="508.0" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(170.0 552.6 508.0)"/><ellipse cx="507.4" cy="508.0" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(190.0 507.4 508.0)"/><ellipse cx="465.0" cy="492.6" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(210.0 465.0 492.6)"/><ellipse cx="430.4" cy="463.6" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(230.0 430.4 463.6)"/><ellipse cx="407.8" cy="424.5" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(250.0 407.8 424.5)"/><ellipse cx="400.0" cy="380.0" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(270.0 400.0 380.0)"/><ellipse cx="407.8" cy="335.5" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(290.0 407.8 335.5)"/><ellipse cx="430.4" cy="296.4" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(310.0 430.4 296.4)"/><ellipse cx="465.0" cy="267.4" rx="20" ry="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(330.0 465.0 267.4)"/><ellipse cx="507.4" cy="252.0" rx="9" ry="20" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5" transform="rotate(350.0 507.4 252.0)"/>
+<circle cx="530" cy="250" r="10" fill="url(#silverV)" stroke="#909090" stroke-width="1.5"/>
+</g>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 STERLING SILVER · CHAIN-LINK HOOP EARRINGS</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="mk" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F5F5F5"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#mk)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient></defs>
+<ellipse cx="400" cy="580" rx="190" ry="22" fill="#0000001F" filter="url(#shadow)"/>
+<!-- Heavy kada - thick open bangle -->
+<path d="M 215,330 Q 190,330 178,400 Q 166,470 178,530 Q 192,590 240,610 Q 300,635 400,638 Q 500,635 560,610 Q 608,590 622,530 Q 634,470 622,400 Q 610,330 585,330" fill="none" stroke="url(#silverSheen)" stroke-width="65" stroke-linecap="round"/>
+<!-- Hammered texture dots on kada -->
+<circle cx="197" cy="415" r="2.2961673105378564" fill="#A0A0A0" opacity="0.4"/><circle cx="207" cy="398" r="3.196541234435399" fill="#A0A0A0" opacity="0.4"/><circle cx="221" cy="382" r="3.1648503340206147" fill="#A0A0A0" opacity="0.4"/><circle cx="239" cy="367" r="2.1224614592178472" fill="#A0A0A0" opacity="0.4"/><circle cx="260" cy="354" r="2.901751571196298" fill="#A0A0A0" opacity="0.4"/><circle cx="285" cy="343" r="3.172691691531261" fill="#A0A0A0" opacity="0.4"/><circle cx="312" cy="334" r="3.2714950205567757" fill="#A0A0A0" opacity="0.4"/><circle cx="342" cy="328" r="3.3069358120097756" fill="#A0A0A0" opacity="0.4"/><circle cx="372" cy="324" r="3.057440465169309" fill="#A0A0A0" opacity="0.4"/><circle cx="403" cy="323" r="2.625526012183017" fill="#A0A0A0" opacity="0.4"/><circle cx="434" cy="325" r="2.4393691860182725" fill="#A0A0A0" opacity="0.4"/><circle cx="464" cy="329" r="2.2252892895892114" fill="#A0A0A0" opacity="0.4"/><circle cx="493" cy="336" r="2.2797193996583394" fill="#A0A0A0" opacity="0.4"/><circle cx="520" cy="345" r="2.8509757991131153" fill="#A0A0A0" opacity="0.4"/><circle cx="544" cy="356" r="3.0134453306259443" fill="#A0A0A0" opacity="0.4"/><circle cx="565" cy="370" r="3.123444409885666" fill="#A0A0A0" opacity="0.4"/><circle cx="582" cy="385" r="2.927248338031898" fill="#A0A0A0" opacity="0.4"/><circle cx="596" cy="401" r="2.8053106650819997" fill="#A0A0A0" opacity="0.4"/><circle cx="605" cy="418" r="2.2465511987485507" fill="#A0A0A0" opacity="0.4"/><circle cx="609" cy="436" r="2.2533399223167425" fill="#A0A0A0" opacity="0.4"/><circle cx="609" cy="454" r="2.7404285367449046" fill="#A0A0A0" opacity="0.4"/><circle cx="605" cy="472" r="2.8525914136929997" fill="#A0A0A0" opacity="0.4"/><circle cx="596" cy="489" r="2.5590745848905296" fill="#A0A0A0" opacity="0.4"/><circle cx="582" cy="505" r="2.928872283852227" fill="#A0A0A0" opacity="0.4"/><circle cx="565" cy="520" r="3.3695218248787873" fill="#A0A0A0" opacity="0.4"/><circle cx="544" cy="534" r="2.4229971014794156" fill="#A0A0A0" opacity="0.4"/><circle cx="520" cy="545" r="3.08238937229998" fill="#A0A0A0" opacity="0.4"/><circle cx="493" cy="554" r="3.3639492562277704" fill="#A0A0A0" opacity="0.4"/><circle cx="464" cy="561" r="2.545270213937152" fill="#A0A0A0" opacity="0.4"/><circle cx="434" cy="565" r="2.664576250574548" fill="#A0A0A0" opacity="0.4"/><circle cx="403" cy="567" r="2.925194327843288" fill="#A0A0A0" opacity="0.4"/><circle cx="372" cy="566" r="2.9486135189010136" fill="#A0A0A0" opacity="0.4"/><circle cx="342" cy="562" r="2.4886420551233397" fill="#A0A0A0" opacity="0.4"/><circle cx="312" cy="556" r="2.647746969980007" fill="#A0A0A0" opacity="0.4"/><circle cx="285" cy="547" r="3.318221306240659" fill="#A0A0A0" opacity="0.4"/><circle cx="260" cy="536" r="2.5872034874696546" fill="#A0A0A0" opacity="0.4"/><circle cx="239" cy="523" r="2.1447299619839324" fill="#A0A0A0" opacity="0.4"/><circle cx="221" cy="508" r="2.081065197465843" fill="#A0A0A0" opacity="0.4"/><circle cx="207" cy="492" r="3.424972158629458" fill="#A0A0A0" opacity="0.4"/><circle cx="197" cy="475" r="2.143581312892106" fill="#A0A0A0" opacity="0.4"/>
+<!-- Inner ring -->
+<path d="M 238,335 Q 215,335 204,400 Q 192,465 204,522 Q 217,578 250,596 Q 305,618 400,620 Q 495,618 550,596 Q 583,578 596,522 Q 608,465 596,400 Q 585,335 562,335" fill="none" stroke="white" stroke-width="3" opacity="0.2" stroke-linecap="round"/>
+<!-- Engraving band in middle of kada -->
+<path d="M 240,368 Q 210,370 200,430 Q 190,490 200,535 Q 212,578 250,594" fill="none" stroke="#D8D8D8" stroke-width="2" opacity="0.4"/>
+<path d="M 560,368 Q 590,370 600,430 Q 610,490 600,535 Q 588,578 550,594" fill="none" stroke="#D8D8D8" stroke-width="2" opacity="0.4"/>
+<!-- Open gap with polished ends -->
+<circle cx="215" cy="330" r="25" fill="url(#silverV)" stroke="#808080" stroke-width="2.5"/>
+<circle cx="585" cy="330" r="25" fill="url(#silverV)" stroke="#808080" stroke-width="2.5"/>
+<circle cx="215" cy="330" r="12" fill="url(#silverSheen)"/>
+<circle cx="585" cy="330" r="12" fill="url(#silverSheen)"/>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 SILVER · HAMMERED · MEN'S HIMALAYAN KADA</text>
+</svg>

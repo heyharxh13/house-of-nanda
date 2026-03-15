@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="msb" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F5F5F5"/>
+      <stop offset="100%" stop-color="#E5E5E5"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#msb)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient></defs>
+<ellipse cx="400" cy="575" rx="235" ry="20" fill="#0000001A" filter="url(#shadow)"/>
+<!-- Flat serpentine chain bracelet -->
+<g filter="url(#shdw2)">
+<rect x="148" y="328" width="29" height="64" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.8"/>
+      <rect x="153" y="336" width="8" height="48" rx="4" fill="white" opacity="0.2"/><rect x="179" y="338" width="25" height="44" rx="8" fill="url(#silverV)" stroke="#A0A0A0" stroke-width="1.5"/>
+      <line x1="187" y1="346" x2="187" y2="374" stroke="#C0C0C0" stroke-width="1" opacity="0.4"/><rect x="206" y="328" width="29" height="64" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.8"/>
+      <rect x="211" y="336" width="8" height="48" rx="4" fill="white" opacity="0.2"/><rect x="237" y="338" width="25" height="44" rx="8" fill="url(#silverV)" stroke="#A0A0A0" stroke-width="1.5"/>
+      <line x1="245" y1="346" x2="245" y2="374" stroke="#C0C0C0" stroke-width="1" opacity="0.4"/><rect x="264" y="328" width="29" height="64" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.8"/>
+      <rect x="269" y="336" width="8" height="48" rx="4" fill="white" opacity="0.2"/><rect x="295" y="338" width="25" height="44" rx="8" fill="url(#silverV)" stroke="#A0A0A0" stroke-width="1.5"/>
+      <line x1="303" y1="346" x2="303" y2="374" stroke="#C0C0C0" stroke-width="1" opacity="0.4"/><rect x="322" y="328" width="29" height="64" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.8"/>
+      <rect x="327" y="336" width="8" height="48" rx="4" fill="white" opacity="0.2"/><rect x="353" y="338" width="25" height="44" rx="8" fill="url(#silverV)" stroke="#A0A0A0" stroke-width="1.5"/>
+      <line x1="361" y1="346" x2="361" y2="374" stroke="#C0C0C0" stroke-width="1" opacity="0.4"/><rect x="380" y="328" width="29" height="64" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.8"/>
+      <rect x="385" y="336" width="8" height="48" rx="4" fill="white" opacity="0.2"/><rect x="411" y="338" width="25" height="44" rx="8" fill="url(#silverV)" stroke="#A0A0A0" stroke-width="1.5"/>
+      <line x1="419" y1="346" x2="419" y2="374" stroke="#C0C0C0" stroke-width="1" opacity="0.4"/><rect x="438" y="328" width="29" height="64" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.8"/>
+      <rect x="443" y="336" width="8" height="48" rx="4" fill="white" opacity="0.2"/><rect x="469" y="338" width="25" height="44" rx="8" fill="url(#silverV)" stroke="#A0A0A0" stroke-width="1.5"/>
+      <line x1="477" y1="346" x2="477" y2="374" stroke="#C0C0C0" stroke-width="1" opacity="0.4"/><rect x="496" y="328" width="29" height="64" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.8"/>
+      <rect x="501" y="336" width="8" height="48" rx="4" fill="white" opacity="0.2"/><rect x="527" y="338" width="25" height="44" rx="8" fill="url(#silverV)" stroke="#A0A0A0" stroke-width="1.5"/>
+      <line x1="535" y1="346" x2="535" y2="374" stroke="#C0C0C0" stroke-width="1" opacity="0.4"/><rect x="554" y="328" width="29" height="64" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.8"/>
+      <rect x="559" y="336" width="8" height="48" rx="4" fill="white" opacity="0.2"/><rect x="585" y="338" width="25" height="44" rx="8" fill="url(#silverV)" stroke="#A0A0A0" stroke-width="1.5"/>
+      <line x1="593" y1="346" x2="593" y2="374" stroke="#C0C0C0" stroke-width="1" opacity="0.4"/><rect x="612" y="328" width="29" height="64" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.8"/>
+      <rect x="617" y="336" width="8" height="48" rx="4" fill="white" opacity="0.2"/><rect x="643" y="338" width="25" height="44" rx="8" fill="url(#silverV)" stroke="#A0A0A0" stroke-width="1.5"/>
+      <line x1="651" y1="346" x2="651" y2="374" stroke="#C0C0C0" stroke-width="1" opacity="0.4"/>
+</g>
+<!-- OT clasp -->
+<g transform="translate(144,360)">
+  <rect x="-22" y="-20" width="22" height="40" rx="10" fill="url(#silverV)" stroke="#909090" stroke-width="2"/>
+  <circle cx="-11" cy="0" r="8" fill="none" stroke="#C0C0C0" stroke-width="2.5"/>
+</g>
+<g transform="translate(667,360)">
+  <rect x="0" y="-10" width="28" height="20" rx="8" fill="url(#silverSheen)" stroke="#909090" stroke-width="2"/>
+</g>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 STERLING SILVER · FLUID SERPENTINE BRACELET</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="np" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FDF9F0"/>
+      <stop offset="100%" stop-color="#EDE5CC"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#np)"/>
+<defs>
+  <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#E8C96D"/>
+    <stop offset="35%" stop-color="#C9A84C"/>
+    <stop offset="65%" stop-color="#F0D478"/>
+    <stop offset="100%" stop-color="#9A7028"/>
+  </linearGradient>
+  <linearGradient id="goldV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F2D878"/>
+    <stop offset="50%" stop-color="#C9A84C"/>
+    <stop offset="100%" stop-color="#8B6010"/>
+  </linearGradient>
+  <linearGradient id="goldSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#A07030"/>
+    <stop offset="30%" stop-color="#E8C96D"/>
+    <stop offset="60%" stop-color="#C9A84C"/>
+    <stop offset="100%" stop-color="#906820"/>
+  </linearGradient></defs>
+<ellipse cx="400" cy="620" rx="100" ry="14" fill="#0000001A" filter="url(#shadow)"/>
+<!-- Chain -->
+<circle cx="400" cy="130" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="142" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="154" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="166" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="178" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="190" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="202" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="214" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="226" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="238" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="250" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="262" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="274" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="286" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="298" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="310" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="322" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="334" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="346" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="358" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="370" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="382" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="394" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="406" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="418" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="430" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="442" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="454" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="466" r="2.8" fill="url(#goldV)"/><circle cx="400" cy="478" r="2.8" fill="url(#goldV)"/>
+<!-- Chain links detail -->
+<path d="M 400,130 L 400,490" stroke="#C9A84C" stroke-width="1" opacity="0.4"/>
+<!-- Pear-shaped pendant -->
+<g filter="url(#shadow)">
+  <!-- Gold setting frame -->
+  <path d="M 400,490 Q 440,490 460,530 Q 480,570 460,610 Q 440,640 400,645 Q 360,640 340,610 Q 320,570 340,530 Q 360,490 400,490 Z" fill="url(#goldV)" stroke="#8B6010" stroke-width="2.5"/>
+  <!-- Diamond pear -->
+  <path d="M 400,500 Q 432,500 448,535 Q 464,568 448,600 Q 432,625 400,630 Q 368,625 352,600 Q 336,568 352,535 Q 368,500 400,500 Z" fill="#E8F4FF" stroke="#AED6F1" stroke-width="1.5" opacity="0.9"/>
+  <!-- Light facets in diamond -->
+  <path d="M 400,500 L 448,535 L 400,630 L 352,535 Z" fill="none" stroke="#AED6F1" stroke-width="0.8" opacity="0.5"/>
+  <path d="M 400,500 L 400,630" stroke="white" stroke-width="0.8" opacity="0.5"/>
+  <path d="M 352,535 L 448,535" stroke="white" stroke-width="0.8" opacity="0.5"/>
+  <path d="M 400,500 Q 420,510 448,535" fill="none" stroke="white" stroke-width="1" opacity="0.6"/>
+  <!-- Prong settings -->
+  <circle cx="400" cy="498" r="5" fill="url(#gold)" stroke="#8B6010" stroke-width="1"/><circle cx="448" cy="533" r="5" fill="url(#gold)" stroke="#8B6010" stroke-width="1"/><circle cx="448" cy="601" r="5" fill="url(#gold)" stroke="#8B6010" stroke-width="1"/><circle cx="400" cy="645" r="5" fill="url(#gold)" stroke="#8B6010" stroke-width="1"/><circle cx="352" cy="601" r="5" fill="url(#gold)" stroke="#8B6010" stroke-width="1"/><circle cx="352" cy="533" r="5" fill="url(#gold)" stroke="#8B6010" stroke-width="1"/>
+</g>
+<!-- Chain connector bail -->
+<ellipse cx="400" cy="492" rx="16" ry="10" fill="url(#goldV)" stroke="#8B6010" stroke-width="1.5"/>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">IGI CERTIFIED · 18KT GOLD · NANDA DEVI SOLITAIRE</text>
+</svg>

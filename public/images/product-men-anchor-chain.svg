@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="mac" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F5F5F5"/>
+      <stop offset="100%" stop-color="#E5E5E5"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#mac)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient></defs>
+<!-- Heavy anchor chain necklace - U-shape layout -->
+<g filter="url(#shdw2)">
+<rect x="135.0" y="452.0" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-65.3 150.0 460.0)"/><rect x="151.1" y="417.0" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-63.6 166.1 425.0)"/><rect x="167.3" y="384.4" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-62.0 182.3 392.4)"/><rect x="183.4" y="354.1" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-60.1 198.4 362.1)"/><rect x="199.5" y="326.1" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-57.8 214.5 334.1)"/><rect x="215.6" y="300.5" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-55.2 230.6 308.5)"/><rect x="231.8" y="277.2" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-52.5 246.8 285.2)"/><rect x="247.9" y="256.2" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-49.1 262.9 264.2)"/><rect x="264.0" y="237.6" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-45.4 279.0 245.6)"/><rect x="280.2" y="221.2" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-40.8 295.2 229.2)"/><rect x="296.3" y="207.3" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-36.0 311.3 215.3)"/><rect x="312.4" y="195.6" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-30.0 327.4 203.6)"/><rect x="328.5" y="186.3" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-23.4 343.5 194.3)"/><rect x="344.7" y="179.3" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-16.3 359.7 187.3)"/><rect x="360.8" y="174.6" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(-8.1 375.8 182.6)"/><rect x="376.9" y="172.3" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(0.0 391.9 180.3)"/><rect x="393.1" y="172.3" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(8.1 408.1 180.3)"/><rect x="409.2" y="174.6" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(16.3 424.2 182.6)"/><rect x="425.3" y="179.3" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(23.4 440.3 187.3)"/><rect x="441.5" y="186.3" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(30.0 456.5 194.3)"/><rect x="457.6" y="195.6" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(36.0 472.6 203.6)"/><rect x="473.7" y="207.3" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(40.8 488.7 215.3)"/><rect x="489.8" y="221.2" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(45.4 504.8 229.2)"/><rect x="506.0" y="237.6" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(49.1 521.0 245.6)"/><rect x="522.1" y="256.2" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(52.5 537.1 264.2)"/><rect x="538.2" y="277.2" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(55.2 553.2 285.2)"/><rect x="554.4" y="300.5" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(57.8 569.4 308.5)"/><rect x="570.5" y="326.1" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(60.1 585.5 334.1)"/><rect x="586.6" y="354.1" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(62.0 601.6 362.1)"/><rect x="602.7" y="384.4" width="30" height="22" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(63.6 617.7 392.4)"/><rect x="618.9" y="417.0" width="30" height="16" rx="6" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5" transform="rotate(65.3 633.9 425.0)"/>
+</g>
+<!-- Clasp at top left -->
+<g transform="translate(150,178)">
+  <rect x="-18" y="-16" width="36" height="32" rx="10" fill="url(#silverV)" stroke="#808080" stroke-width="2"/>
+  <rect x="-8" y="-8" width="16" height="16" rx="5" fill="#D0D0D0"/>
+</g>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 STERLING SILVER · BOLD ANCHOR CHAIN</text>
+</svg>

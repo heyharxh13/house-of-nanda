@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="sc" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F8F9FC"/>
+      <stop offset="100%" stop-color="#E8ECEF"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#sc)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="oxidised" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#707070"/>
+    <stop offset="40%" stop-color="#505050"/>
+    <stop offset="100%" stop-color="#303030"/>
+  </linearGradient></defs>
+<ellipse cx="270" cy="640" rx="80" ry="12" fill="#00000015" filter="url(#shadow)"/>
+<ellipse cx="530" cy="640" rx="80" ry="12" fill="#00000015" filter="url(#shadow)"/>
+<!-- LEFT CHANDELIER -->
+<g transform="translate(270,320)" filter="url(#shdw2)">
+  <!-- Hook -->
+  <path d="M 0,-170 Q 16,-170 16,-150 Q 16,-120 0,-120" fill="none" stroke="url(#silver)" stroke-width="6" stroke-linecap="round"/>
+  <!-- Tier 1 - top hexagonal disc -->
+  <polygon points="0,-108 35,-88 35,-48 0,-28 -35,-48 -35,-88" fill="url(#oxidised)" stroke="#909090" stroke-width="1.5"/>
+  <!-- Aipan pattern on tier 1 -->
+  <polygon points="0,-95 22,-82 22,-60 0,-47 -22,-60 -22,-82" fill="none" stroke="#909090" stroke-width="1.2"/>
+  <line x1="0" y1="-68" x2="15.6" y2="-77.0" stroke="#A0A0A0" stroke-width="1.2"/><line x1="0" y1="-68" x2="15.6" y2="-59.0" stroke="#A0A0A0" stroke-width="1.2"/><line x1="0" y1="-68" x2="0.0" y2="-50.0" stroke="#A0A0A0" stroke-width="1.2"/><line x1="0" y1="-68" x2="-15.6" y2="-59.0" stroke="#A0A0A0" stroke-width="1.2"/><line x1="0" y1="-68" x2="-15.6" y2="-77.0" stroke="#A0A0A0" stroke-width="1.2"/><line x1="0" y1="-68" x2="-0.0" y2="-86.0" stroke="#A0A0A0" stroke-width="1.2"/>
+  <!-- Tier 2 connecting drops to tier 2 -->
+  <line x1="-28" y1="-28" x2="-28" y2="-10" stroke="url(#silver)" stroke-width="1.5"/><line x1="-14" y1="-28" x2="-14" y2="-10" stroke="url(#silver)" stroke-width="1.5"/><line x1="0" y1="-28" x2="0" y2="-10" stroke="url(#silver)" stroke-width="1.5"/><line x1="14" y1="-28" x2="14" y2="-10" stroke="url(#silver)" stroke-width="1.5"/><line x1="28" y1="-28" x2="28" y2="-10" stroke="url(#silver)" stroke-width="1.5"/>
+  <!-- Tier 2 - middle bar -->
+  <rect x="-38" y="-10" width="76" height="18" rx="9" fill="url(#oxidised)" stroke="#909090" stroke-width="1.2"/>
+  <!-- Tier 2 to tier 3 drops -->
+  <line x1="-32" y1="8" x2="-32" y2="30" stroke="url(#silver)" stroke-width="1.5"/><line x1="-16" y1="8" x2="-16" y2="30" stroke="url(#silver)" stroke-width="1.5"/><line x1="0" y1="8" x2="0" y2="30" stroke="url(#silver)" stroke-width="1.5"/><line x1="16" y1="8" x2="16" y2="30" stroke="url(#silver)" stroke-width="1.5"/><line x1="32" y1="8" x2="32" y2="30" stroke="url(#silver)" stroke-width="1.5"/>
+  <!-- Tier 3 - lower bar -->
+  <rect x="-42" y="30" width="84" height="16" rx="8" fill="url(#oxidised)" stroke="#909090" stroke-width="1.2"/>
+  <!-- Final hanging drops -->
+  
+    <line x1="-36" y1="46" x2="-36" y2="76" stroke="url(#silver)" stroke-width="1.8"/>
+    <ellipse cx="-36" cy="83" rx="5.5" ry="9" fill="url(#oxidised)"/>
+  
+    <line x1="-18" y1="46" x2="-18" y2="76" stroke="url(#silver)" stroke-width="1.8"/>
+    <ellipse cx="-18" cy="83" rx="5.5" ry="9" fill="url(#oxidised)"/>
+  
+    <line x1="0" y1="46" x2="0" y2="76" stroke="url(#silver)" stroke-width="1.8"/>
+    <ellipse cx="0" cy="83" rx="5.5" ry="9" fill="url(#oxidised)"/>
+  
+    <line x1="18" y1="46" x2="18" y2="76" stroke="url(#silver)" stroke-width="1.8"/>
+    <ellipse cx="18" cy="83" rx="5.5" ry="9" fill="url(#oxidised)"/>
+  
+    <line x1="36" y1="46" x2="36" y2="76" stroke="url(#silver)" stroke-width="1.8"/>
+    <ellipse cx="36" cy="83" rx="5.5" ry="9" fill="url(#oxidised)"/>
+  
+</g>
+<!-- RIGHT CHANDELIER -->
+<g transform="translate(530,320)" filter="url(#shdw2)">
+  <path d="M 0,-170 Q 16,-170 16,-150 Q 16,-120 0,-120" fill="none" stroke="url(#silver)" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="0,-108 35,-88 35,-48 0,-28 -35,-48 -35,-88" fill="url(#oxidised)" stroke="#909090" stroke-width="1.5"/>
+  <polygon points="0,-95 22,-82 22,-60 0,-47 -22,-60 -22,-82" fill="none" stroke="#909090" stroke-width="1.2"/>
+  <line x1="0" y1="-68" x2="15.6" y2="-77.0" stroke="#A0A0A0" stroke-width="1.2"/><line x1="0" y1="-68" x2="15.6" y2="-59.0" stroke="#A0A0A0" stroke-width="1.2"/><line x1="0" y1="-68" x2="0.0" y2="-50.0" stroke="#A0A0A0" stroke-width="1.2"/><line x1="0" y1="-68" x2="-15.6" y2="-59.0" stroke="#A0A0A0" stroke-width="1.2"/><line x1="0" y1="-68" x2="-15.6" y2="-77.0" stroke="#A0A0A0" stroke-width="1.2"/><line x1="0" y1="-68" x2="-0.0" y2="-86.0" stroke="#A0A0A0" stroke-width="1.2"/>
+  <line x1="-28" y1="-28" x2="-28" y2="-10" stroke="url(#silver)" stroke-width="1.5"/><line x1="-14" y1="-28" x2="-14" y2="-10" stroke="url(#silver)" stroke-width="1.5"/><line x1="0" y1="-28" x2="0" y2="-10" stroke="url(#silver)" stroke-width="1.5"/><line x1="14" y1="-28" x2="14" y2="-10" stroke="url(#silver)" stroke-width="1.5"/><line x1="28" y1="-28" x2="28" y2="-10" stroke="url(#silver)" stroke-width="1.5"/>
+  <rect x="-38" y="-10" width="76" height="18" rx="9" fill="url(#oxidised)" stroke="#909090" stroke-width="1.2"/>
+  <line x1="-32" y1="8" x2="-32" y2="30" stroke="url(#silver)" stroke-width="1.5"/><line x1="-16" y1="8" x2="-16" y2="30" stroke="url(#silver)" stroke-width="1.5"/><line x1="0" y1="8" x2="0" y2="30" stroke="url(#silver)" stroke-width="1.5"/><line x1="16" y1="8" x2="16" y2="30" stroke="url(#silver)" stroke-width="1.5"/><line x1="32" y1="8" x2="32" y2="30" stroke="url(#silver)" stroke-width="1.5"/>
+  <rect x="-42" y="30" width="84" height="16" rx="8" fill="url(#oxidised)" stroke="#909090" stroke-width="1.2"/>
+  
+    <line x1="-36" y1="46" x2="-36" y2="76" stroke="url(#silver)" stroke-width="1.8"/>
+    <ellipse cx="-36" cy="83" rx="5.5" ry="9" fill="url(#oxidised)"/>
+  
+    <line x1="-18" y1="46" x2="-18" y2="76" stroke="url(#silver)" stroke-width="1.8"/>
+    <ellipse cx="-18" cy="83" rx="5.5" ry="9" fill="url(#oxidised)"/>
+  
+    <line x1="0" y1="46" x2="0" y2="76" stroke="url(#silver)" stroke-width="1.8"/>
+    <ellipse cx="0" cy="83" rx="5.5" ry="9" fill="url(#oxidised)"/>
+  
+    <line x1="18" y1="46" x2="18" y2="76" stroke="url(#silver)" stroke-width="1.8"/>
+    <ellipse cx="18" cy="83" rx="5.5" ry="9" fill="url(#oxidised)"/>
+  
+    <line x1="36" y1="46" x2="36" y2="76" stroke="url(#silver)" stroke-width="1.8"/>
+    <ellipse cx="36" cy="83" rx="5.5" ry="9" fill="url(#oxidised)"/>
+  
+</g>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 SILVER · OXIDISED · AIPAN CHANDELIER</text>
+</svg>

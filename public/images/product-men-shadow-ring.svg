@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="mshd" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F0F0F0"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#mshd)"/>
+<defs>
+  <linearGradient id="oxidised" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#707070"/>
+    <stop offset="40%" stop-color="#505050"/>
+    <stop offset="100%" stop-color="#303030"/>
+  </linearGradient></defs>
+<ellipse cx="400" cy="575" rx="155" ry="18" fill="#00000020" filter="url(#shadow)"/>
+<!-- Wide oxidised band ring -->
+<ellipse cx="400" cy="425" rx="138" ry="42" fill="none" stroke="url(#oxidised)" stroke-width="58"/>
+<path d="M 262,425 Q 262,525 400,528 Q 538,525 538,425" fill="#383838" stroke="#282828" stroke-width="2"/>
+<!-- Matte texture - subtle horizontal lines -->
+<path d="M 275,295 Q 400,299 525,295" fill="none" stroke="#484848" stroke-width="1.5" opacity="0.5"/><path d="M 275,309 Q 400,313 525,309" fill="none" stroke="#484848" stroke-width="1.5" opacity="0.5"/><path d="M 275,323 Q 400,327 525,323" fill="none" stroke="#484848" stroke-width="1.5" opacity="0.5"/><path d="M 275,337 Q 400,341 525,337" fill="none" stroke="#484848" stroke-width="1.5" opacity="0.5"/><path d="M 275,351 Q 400,355 525,351" fill="none" stroke="#484848" stroke-width="1.5" opacity="0.5"/><path d="M 275,365 Q 400,369 525,365" fill="none" stroke="#484848" stroke-width="1.5" opacity="0.5"/>
+<!-- Top band face - wide flat -->
+<rect x="296" y="270" width="208" height="110" rx="12" fill="url(#oxidised)" stroke="#282828" stroke-width="2" filter="url(#shadow)"/>
+<!-- Single polished groove across face -->
+<line x1="304" y1="325" x2="496" y2="325" stroke="#909090" stroke-width="3"/>
+<line x1="304" y1="325" x2="496" y2="325" stroke="white" stroke-width="1" opacity="0.3"/>
+<!-- Matte band texture lines on face -->
+<line x1="298" y1="280" x2="502" y2="280" stroke="#484848" stroke-width="1" opacity="0.4"/><line x1="298" y1="304" x2="502" y2="304" stroke="#484848" stroke-width="1" opacity="0.4"/><line x1="298" y1="328" x2="502" y2="328" stroke="#484848" stroke-width="1" opacity="0.4"/><line x1="298" y1="352" x2="502" y2="352" stroke="#484848" stroke-width="1" opacity="0.4"/>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 SILVER · OXIDISED MATTE · SHADOW BAND RING</text>
+</svg>

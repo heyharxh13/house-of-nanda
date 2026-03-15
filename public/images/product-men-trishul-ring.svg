@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="mtr" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F5F5F5"/>
+      <stop offset="100%" stop-color="#E5E5E5"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#mtr)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="oxidised" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#707070"/>
+    <stop offset="40%" stop-color="#505050"/>
+    <stop offset="100%" stop-color="#303030"/>
+  </linearGradient></defs>
+<ellipse cx="400" cy="575" rx="155" ry="18" fill="#0000018" filter="url(#shadow)"/>
+<!-- Ring band - wide oxidised -->
+<ellipse cx="400" cy="430" rx="138" ry="42" fill="none" stroke="url(#oxidised)" stroke-width="50"/>
+<path d="M 262,430 Q 262,530 400,534 Q 538,530 538,430" fill="#404040" stroke="#303030" stroke-width="2"/>
+<!-- Wide band top face -->
+<rect x="295" y="268" width="210" height="120" rx="10" fill="url(#oxidised)" stroke="#505050" stroke-width="2" filter="url(#shadow)"/>
+<!-- Trishul (trident) engraving -->
+<g stroke="#909090" stroke-width="2.5" fill="none" opacity="0.8">
+  <!-- Main shaft -->
+  <line x1="400" y1="285" x2="400" y2="375"/>
+  <!-- Three prongs at top -->
+  <path d="M 382,310 Q 382,295 390,290 Q 398,285 400,295"/>
+  <path d="M 418,310 Q 418,295 410,290 Q 402,285 400,295"/>
+  <line x1="400" y1="285" x2="400" y2="295"/>
+  <!-- Prong tips -->
+  <path d="M 375,320 Q 375,308 382,308"/>
+  <path d="M 425,320 Q 425,308 418,308"/>
+  <!-- Bottom cross guard -->
+  <line x1="378" y1="350" x2="422" y2="350"/>
+  <path d="M 378,350 Q 372,350 370,342"/>
+  <path d="M 422,350 Q 428,350 430,342"/>
+</g>
+<!-- Horizontal texture lines on band -->
+<line x1="298" y1="276" x2="502" y2="276" stroke="#606060" stroke-width="1" opacity="0.4"/><line x1="298" y1="298" x2="502" y2="298" stroke="#606060" stroke-width="1" opacity="0.4"/><line x1="298" y1="320" x2="502" y2="320" stroke="#606060" stroke-width="1" opacity="0.4"/><line x1="298" y1="342" x2="502" y2="342" stroke="#606060" stroke-width="1" opacity="0.4"/><line x1="298" y1="364" x2="502" y2="364" stroke="#606060" stroke-width="1" opacity="0.4"/>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 SILVER · OXIDISED · TRISHUL RING</text>
+</svg>

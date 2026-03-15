@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="mtb" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F5F5F8"/>
+      <stop offset="100%" stop-color="#EAEAF2"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#mtb)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="wg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#E8E8E8"/>
+    <stop offset="50%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#888888"/>
+  </linearGradient>
+</defs>
+<ellipse cx="400" cy="560" rx="235" ry="18" fill="#0000015" filter="url(#shadow)"/>
+<!-- Tennis bracelet - diamonds in white gold links -->
+<g filter="url(#shdw2)">
+<rect x="159" y="346" width="20" height="28" rx="5" fill="url(#silverSheen)" stroke="#B0B0B0" stroke-width="1.2"/><rect x="183" y="340" width="28" height="40" rx="6" fill="url(#wg)" stroke="#C0C0C0" stroke-width="1.5"/>
+    
+  <polygon points="197,350 204,357 206,363 197,370 188,363 190,357" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="197,350 204,357 197,360" fill="white" opacity="0.7"/>
+  <polygon points="197,360 206,363 197,370" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="197" y1="350" x2="197" y2="370" stroke="#AED6F1" stroke-width="0.5"/><rect x="215" y="346" width="20" height="28" rx="5" fill="url(#silverSheen)" stroke="#B0B0B0" stroke-width="1.2"/><rect x="239" y="340" width="28" height="40" rx="6" fill="url(#wg)" stroke="#C0C0C0" stroke-width="1.5"/>
+    
+  <polygon points="253,350 260,357 262,363 253,370 244,363 246,357" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="253,350 260,357 253,360" fill="white" opacity="0.7"/>
+  <polygon points="253,360 262,363 253,370" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="253" y1="350" x2="253" y2="370" stroke="#AED6F1" stroke-width="0.5"/><rect x="271" y="346" width="20" height="28" rx="5" fill="url(#silverSheen)" stroke="#B0B0B0" stroke-width="1.2"/><rect x="295" y="340" width="28" height="40" rx="6" fill="url(#wg)" stroke="#C0C0C0" stroke-width="1.5"/>
+    
+  <polygon points="309,350 316,357 318,363 309,370 300,363 302,357" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="309,350 316,357 309,360" fill="white" opacity="0.7"/>
+  <polygon points="309,360 318,363 309,370" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="309" y1="350" x2="309" y2="370" stroke="#AED6F1" stroke-width="0.5"/><rect x="327" y="346" width="20" height="28" rx="5" fill="url(#silverSheen)" stroke="#B0B0B0" stroke-width="1.2"/><rect x="351" y="340" width="28" height="40" rx="6" fill="url(#wg)" stroke="#C0C0C0" stroke-width="1.5"/>
+    
+  <polygon points="365,350 372,357 374,363 365,370 356,363 358,357" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="365,350 372,357 365,360" fill="white" opacity="0.7"/>
+  <polygon points="365,360 374,363 365,370" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="365" y1="350" x2="365" y2="370" stroke="#AED6F1" stroke-width="0.5"/><rect x="383" y="346" width="20" height="28" rx="5" fill="url(#silverSheen)" stroke="#B0B0B0" stroke-width="1.2"/><rect x="407" y="340" width="28" height="40" rx="6" fill="url(#wg)" stroke="#C0C0C0" stroke-width="1.5"/>
+    
+  <polygon points="421,350 428,357 430,363 421,370 412,363 414,357" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="421,350 428,357 421,360" fill="white" opacity="0.7"/>
+  <polygon points="421,360 430,363 421,370" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="421" y1="350" x2="421" y2="370" stroke="#AED6F1" stroke-width="0.5"/><rect x="439" y="346" width="20" height="28" rx="5" fill="url(#silverSheen)" stroke="#B0B0B0" stroke-width="1.2"/><rect x="463" y="340" width="28" height="40" rx="6" fill="url(#wg)" stroke="#C0C0C0" stroke-width="1.5"/>
+    
+  <polygon points="477,350 484,357 486,363 477,370 468,363 470,357" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="477,350 484,357 477,360" fill="white" opacity="0.7"/>
+  <polygon points="477,360 486,363 477,370" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="477" y1="350" x2="477" y2="370" stroke="#AED6F1" stroke-width="0.5"/><rect x="495" y="346" width="20" height="28" rx="5" fill="url(#silverSheen)" stroke="#B0B0B0" stroke-width="1.2"/><rect x="519" y="340" width="28" height="40" rx="6" fill="url(#wg)" stroke="#C0C0C0" stroke-width="1.5"/>
+    
+  <polygon points="533,350 540,357 542,363 533,370 524,363 526,357" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="533,350 540,357 533,360" fill="white" opacity="0.7"/>
+  <polygon points="533,360 542,363 533,370" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="533" y1="350" x2="533" y2="370" stroke="#AED6F1" stroke-width="0.5"/><rect x="551" y="346" width="20" height="28" rx="5" fill="url(#silverSheen)" stroke="#B0B0B0" stroke-width="1.2"/><rect x="575" y="340" width="28" height="40" rx="6" fill="url(#wg)" stroke="#C0C0C0" stroke-width="1.5"/>
+    
+  <polygon points="589,350 596,357 598,363 589,370 580,363 582,357" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="589,350 596,357 589,360" fill="white" opacity="0.7"/>
+  <polygon points="589,360 598,363 589,370" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="589" y1="350" x2="589" y2="370" stroke="#AED6F1" stroke-width="0.5"/><rect x="607" y="346" width="20" height="28" rx="5" fill="url(#silverSheen)" stroke="#B0B0B0" stroke-width="1.2"/><rect x="631" y="340" width="28" height="40" rx="6" fill="url(#wg)" stroke="#C0C0C0" stroke-width="1.5"/>
+    
+  <polygon points="645,350 652,357 654,363 645,370 636,363 638,357" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8"/>
+  <polygon points="645,350 652,357 645,360" fill="white" opacity="0.7"/>
+  <polygon points="645,360 654,363 645,370" fill="#B3D9F5" opacity="0.6"/>
+  <line x1="645" y1="350" x2="645" y2="370" stroke="#AED6F1" stroke-width="0.5"/>
+</g>
+<!-- Box clasp with safety -->
+<g transform="translate(155,360)">
+  <rect x="-26" y="-18" width="26" height="36" rx="8" fill="url(#wg)" stroke="#C0C0C0" stroke-width="2"/>
+  <rect x="-18" y="-10" width="14" height="20" rx="4" fill="#D8D8D8"/>
+  <line x1="-4" y1="-10" x2="-4" y2="10" stroke="#C0C0C0" stroke-width="1.5"/>
+</g>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">18KT WHITE GOLD · LAB DIAMONDS · TENNIS BRACELET</text>
+</svg>

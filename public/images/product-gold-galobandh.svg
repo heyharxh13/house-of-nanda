@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="gb" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FDF9F0"/>
+      <stop offset="100%" stop-color="#F0E8D0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#gb)"/>
+<defs>
+  <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#E8C96D"/>
+    <stop offset="35%" stop-color="#C9A84C"/>
+    <stop offset="65%" stop-color="#F0D478"/>
+    <stop offset="100%" stop-color="#9A7028"/>
+  </linearGradient>
+  <linearGradient id="goldV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F2D878"/>
+    <stop offset="50%" stop-color="#C9A84C"/>
+    <stop offset="100%" stop-color="#8B6010"/>
+  </linearGradient>
+  <linearGradient id="goldSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#A07030"/>
+    <stop offset="30%" stop-color="#E8C96D"/>
+    <stop offset="60%" stop-color="#C9A84C"/>
+    <stop offset="100%" stop-color="#906820"/>
+  </linearGradient>
+  <radialGradient id="bead" cx="35%" cy="35%">
+    <stop offset="0%" stop-color="#F0D478"/>
+    <stop offset="100%" stop-color="#8B6010"/>
+  </radialGradient>
+</defs>
+<!-- Shadow -->
+<ellipse cx="400" cy="560" rx="200" ry="22" fill="#0000001A" filter="url(#shadow)"/>
+<!-- 3 layered chains -->
+<!-- Layer 1 - outermost -->
+<circle cx="212.9" cy="257.6" r="7" fill="url(#bead)"/>
+  <circle cx="210.9" cy="255.6" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="235.3" cy="238.4" r="7" fill="url(#bead)"/>
+  <circle cx="233.3" cy="236.4" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="264.1" cy="222.0" r="7" fill="url(#bead)"/>
+  <circle cx="262.1" cy="220.0" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="298.2" cy="209.0" r="7" fill="url(#bead)"/>
+  <circle cx="296.2" cy="207.0" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="336.3" cy="199.9" r="7" fill="url(#bead)"/>
+  <circle cx="334.3" cy="197.9" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="376.8" cy="195.2" r="7" fill="url(#bead)"/>
+  <circle cx="374.8" cy="193.2" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="418.3" cy="194.9" r="7" fill="url(#bead)"/>
+  <circle cx="416.3" cy="192.9" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="459.1" cy="199.2" r="7" fill="url(#bead)"/>
+  <circle cx="457.1" cy="197.2" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="497.5" cy="207.7" r="7" fill="url(#bead)"/>
+  <circle cx="495.5" cy="205.7" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="532.2" cy="220.2" r="7" fill="url(#bead)"/>
+  <circle cx="530.2" cy="218.2" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="561.7" cy="236.3" r="7" fill="url(#bead)"/>
+  <circle cx="559.7" cy="234.3" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="584.8" cy="255.2" r="7" fill="url(#bead)"/>
+  <circle cx="582.8" cy="253.2" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="600.8" cy="276.2" r="7" fill="url(#bead)"/>
+  <circle cx="598.8" cy="274.2" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="609.0" cy="298.6" r="7" fill="url(#bead)"/>
+  <circle cx="607.0" cy="296.6" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="609.0" cy="321.4" r="7" fill="url(#bead)"/>
+  <circle cx="607.0" cy="319.4" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="600.8" cy="343.8" r="7" fill="url(#bead)"/>
+  <circle cx="598.8" cy="341.8" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="584.8" cy="364.8" r="7" fill="url(#bead)"/>
+  <circle cx="582.8" cy="362.8" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="561.7" cy="383.7" r="7" fill="url(#bead)"/>
+  <circle cx="559.7" cy="381.7" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="532.2" cy="399.8" r="7" fill="url(#bead)"/>
+  <circle cx="530.2" cy="397.8" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="497.5" cy="412.3" r="7" fill="url(#bead)"/>
+  <circle cx="495.5" cy="410.3" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="459.1" cy="420.8" r="7" fill="url(#bead)"/>
+  <circle cx="457.1" cy="418.8" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="418.3" cy="425.1" r="7" fill="url(#bead)"/>
+  <circle cx="416.3" cy="423.1" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="376.8" cy="424.8" r="7" fill="url(#bead)"/>
+  <circle cx="374.8" cy="422.8" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="336.3" cy="420.1" r="7" fill="url(#bead)"/>
+  <circle cx="334.3" cy="418.1" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="298.2" cy="411.0" r="7" fill="url(#bead)"/>
+  <circle cx="296.2" cy="409.0" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="264.1" cy="398.0" r="7" fill="url(#bead)"/>
+  <circle cx="262.1" cy="396.0" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="235.3" cy="381.6" r="7" fill="url(#bead)"/>
+  <circle cx="233.3" cy="379.6" r="2.5" fill="#F5E08A" opacity="0.7"/><circle cx="212.9" cy="362.4" r="7" fill="url(#bead)"/>
+  <circle cx="210.9" cy="360.4" r="2.5" fill="#F5E08A" opacity="0.7"/>
+<!-- Layer 2 - middle -->
+<circle cx="258.4" cy="253.4" r="6.5" fill="url(#bead)"/><circle cx="286.8" cy="236.6" r="6.5" fill="url(#bead)"/><circle cx="321.7" cy="223.9" r="6.5" fill="url(#bead)"/><circle cx="361.1" cy="216.2" r="6.5" fill="url(#bead)"/><circle cx="402.6" cy="213.8" r="6.5" fill="url(#bead)"/><circle cx="444.0" cy="216.8" r="6.5" fill="url(#bead)"/><circle cx="482.9" cy="225.2" r="6.5" fill="url(#bead)"/><circle cx="517.1" cy="238.5" r="6.5" fill="url(#bead)"/><circle cx="544.6" cy="255.8" r="6.5" fill="url(#bead)"/><circle cx="563.8" cy="276.2" r="6.5" fill="url(#bead)"/><circle cx="573.7" cy="298.5" r="6.5" fill="url(#bead)"/><circle cx="573.7" cy="321.5" r="6.5" fill="url(#bead)"/><circle cx="563.8" cy="343.8" r="6.5" fill="url(#bead)"/><circle cx="544.6" cy="364.2" r="6.5" fill="url(#bead)"/><circle cx="517.1" cy="381.5" r="6.5" fill="url(#bead)"/><circle cx="482.9" cy="394.8" r="6.5" fill="url(#bead)"/><circle cx="444.0" cy="403.2" r="6.5" fill="url(#bead)"/><circle cx="402.6" cy="406.2" r="6.5" fill="url(#bead)"/><circle cx="361.1" cy="403.8" r="6.5" fill="url(#bead)"/><circle cx="321.7" cy="396.1" r="6.5" fill="url(#bead)"/><circle cx="286.8" cy="383.4" r="6.5" fill="url(#bead)"/><circle cx="258.4" cy="366.6" r="6.5" fill="url(#bead)"/>
+<!-- Layer 3 - innermost -->
+<circle cx="310.8" cy="256.1" r="5.5" fill="url(#bead)"/><circle cx="346.8" cy="245.2" r="5.5" fill="url(#bead)"/><circle cx="387.7" cy="240.3" r="5.5" fill="url(#bead)"/><circle cx="429.7" cy="241.6" r="5.5" fill="url(#bead)"/><circle cx="469.0" cy="249.1" r="5.5" fill="url(#bead)"/><circle cx="502.1" cy="262.1" r="5.5" fill="url(#bead)"/><circle cx="525.9" cy="279.4" r="5.5" fill="url(#bead)"/><circle cx="538.4" cy="299.5" r="5.5" fill="url(#bead)"/><circle cx="538.4" cy="320.5" r="5.5" fill="url(#bead)"/><circle cx="525.9" cy="340.6" r="5.5" fill="url(#bead)"/><circle cx="502.1" cy="357.9" r="5.5" fill="url(#bead)"/><circle cx="469.0" cy="370.9" r="5.5" fill="url(#bead)"/><circle cx="429.7" cy="378.4" r="5.5" fill="url(#bead)"/><circle cx="387.7" cy="379.7" r="5.5" fill="url(#bead)"/><circle cx="346.8" cy="374.8" r="5.5" fill="url(#bead)"/><circle cx="310.8" cy="363.9" r="5.5" fill="url(#bead)"/>
+<!-- Central pendant -->
+<g filter="url(#shadow)">
+  <ellipse cx="400" cy="460" rx="28" ry="38" fill="url(#goldV)" stroke="url(#gold)" stroke-width="1.5"/>
+  <ellipse cx="400" cy="455" rx="18" ry="22" fill="none" stroke="#F0D478" stroke-width="1" opacity="0.6"/>
+  <line x1="400" y1="440" x2="400" y2="470" stroke="#F0D478" stroke-width="0.8" opacity="0.5"/>
+  <line x1="382" y1="455" x2="418" y2="455" stroke="#F0D478" stroke-width="0.8" opacity="0.5"/>
+  <!-- Diamond center -->
+  <circle cx="400" cy="455" r="8" fill="#E8F4FF" stroke="#AED6F1" stroke-width="0.8" opacity="0.9"/>
+</g>
+<!-- Clasp area at top -->
+<circle cx="400" cy="185" r="12" fill="url(#gold)" stroke="#8B6010" stroke-width="1.5"/>
+<circle cx="400" cy="185" r="6" fill="url(#bead)"/>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">22KT BIS HALLMARK · GALOBANDH</text>
+</svg>

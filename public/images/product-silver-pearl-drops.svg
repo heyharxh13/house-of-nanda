@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="pd" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F8F9FC"/>
+      <stop offset="100%" stop-color="#EEF0F8"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#pd)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient></defs>
+<ellipse cx="270" cy="600" rx="55" ry="10" fill="#00000012" filter="url(#shadow)"/>
+<ellipse cx="530" cy="600" rx="55" ry="10" fill="#00000012" filter="url(#shadow)"/>
+<!-- LEFT PEARL DROP -->
+<g filter="url(#shdw2)">
+  <!-- Stud post -->
+  <circle cx="270" cy="195" r="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5"/>
+  <circle cx="270" cy="195" r="4" fill="white" opacity="0.7"/>
+  <!-- Thin silver bar -->
+  <rect x="266" y="204" width="8" height="120" rx="4" fill="url(#silverSheen)" stroke="#A0A0A0" stroke-width="1"/>
+  <!-- Sheen highlight on bar -->
+  <rect x="267" y="208" width="3" height="108" rx="1.5" fill="white" opacity="0.3"/>
+  <!-- Connector loop -->
+  <circle cx="270" cy="334" r="7" fill="none" stroke="url(#silverV)" stroke-width="3"/>
+  <!-- Pearl -->
+  
+  <radialGradient id="pearl270380" cx="38%" cy="32%">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="60%" stop-color="#F0EEF5"/>
+    <stop offset="100%" stop-color="#D4D0DC"/>
+  </radialGradient>
+  <circle cx="270" cy="380" r="42" fill="url(#pearl270380)" filter="url(#shdw2)"/>
+  <ellipse cx="259.5" cy="369.5" rx="10.5" ry="8.4" fill="white" opacity="0.6"/>
+</g>
+<!-- RIGHT PEARL DROP -->
+<g filter="url(#shdw2)">
+  <circle cx="530" cy="195" r="9" fill="url(#silverSheen)" stroke="#909090" stroke-width="1.5"/>
+  <circle cx="530" cy="195" r="4" fill="white" opacity="0.7"/>
+  <rect x="526" y="204" width="8" height="120" rx="4" fill="url(#silverSheen)" stroke="#A0A0A0" stroke-width="1"/>
+  <rect x="527" y="208" width="3" height="108" rx="1.5" fill="white" opacity="0.3"/>
+  <circle cx="530" cy="334" r="7" fill="none" stroke="url(#silverV)" stroke-width="3"/>
+  
+  <radialGradient id="pearl530380" cx="38%" cy="32%">
+    <stop offset="0%" stop-color="white"/>
+    <stop offset="60%" stop-color="#F0EEF5"/>
+    <stop offset="100%" stop-color="#D4D0DC"/>
+  </radialGradient>
+  <circle cx="530" cy="380" r="42" fill="url(#pearl530380)" filter="url(#shdw2)"/>
+  <ellipse cx="519.5" cy="369.5" rx="10.5" ry="8.4" fill="white" opacity="0.6"/>
+</g>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 SILVER · FRESHWATER PEARL · DROP EARRINGS</text>
+</svg>

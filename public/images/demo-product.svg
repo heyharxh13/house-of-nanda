@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f0e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ede8dc;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c9a84c;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e8c96d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a07830;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#c9a84c" stroke-width="0.3" opacity="0.2"/>
+  </pattern>
+  <rect width="800" height="800" fill="url(#grid)"/>
+  <!-- Center jewellery icon - ring shape -->
+  <circle cx="400" cy="360" r="130" fill="none" stroke="url(#ring)" stroke-width="28"/>
+  <circle cx="400" cy="360" r="130" fill="none" stroke="#fff" stroke-width="3" opacity="0.4"/>
+  <!-- Diamond on top of ring -->
+  <polygon points="400,195 430,235 400,255 370,235" fill="url(#ring)"/>
+  <polygon points="400,195 430,235 400,220" fill="#e8c96d" opacity="0.6"/>
+  <polygon points="400,255 430,235 400,220" fill="#a07830" opacity="0.5"/>
+  <!-- Sparkles -->
+  <g fill="#c9a84c" opacity="0.5">
+    <polygon points="180,180 186,196 202,196 190,206 194,222 180,212 166,222 170,206 158,196 174,196" />
+    <polygon points="620,200 624,212 636,212 627,219 630,231 620,224 610,231 613,219 604,212 616,212" />
+    <polygon points="160,580 164,592 176,592 167,599 170,611 160,604 150,611 153,599 144,592 156,592" />
+    <polygon points="640,560 644,572 656,572 647,579 650,591 640,584 630,591 633,579 624,572 636,572" />
+    <polygon points="400,580 403,589 412,589 405,594 407,603 400,598 393,603 395,594 388,589 397,589" opacity="0.4"/>
+  </g>
+  <!-- Brand text area -->
+  <rect x="250" y="530" width="300" height="80" rx="8" fill="#c9a84c" opacity="0.1"/>
+  <text x="400" y="562" font-family="Georgia, serif" font-size="13" fill="#8b6914" text-anchor="middle" letter-spacing="3" font-weight="600">HOUSE OF NANDA</text>
+  <text x="400" y="582" font-family="Georgia, serif" font-size="10" fill="#a0894a" text-anchor="middle" letter-spacing="5">FINE JEWELLERY</text>
+  <text x="400" y="600" font-family="Arial, sans-serif" font-size="9" fill="#b09050" text-anchor="middle" letter-spacing="2" opacity="0.7">PHOTO COMING SOON</text>
+  <!-- Corner ornaments -->
+  <g stroke="#c9a84c" stroke-width="1.5" fill="none" opacity="0.35">
+    <path d="M 40 40 L 40 80 M 40 40 L 80 40"/>
+    <path d="M 760 40 L 760 80 M 760 40 L 720 40"/>
+    <path d="M 40 760 L 40 720 M 40 760 L 80 760"/>
+    <path d="M 760 760 L 760 720 M 760 760 L 720 760"/>
+  </g>
+</svg>

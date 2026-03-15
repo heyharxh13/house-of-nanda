@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+
+
+  <defs>
+    <radialGradient id="mop" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F0F0F0"/>
+      <stop offset="100%" stop-color="#E0E0E0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#00000018"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#C9A84C30"/>
+    </filter>
+    <filter id="shdw2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000020"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#mop)"/>
+<defs>
+  <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F0F0F0"/>
+    <stop offset="35%" stop-color="#C8C8C8"/>
+    <stop offset="65%" stop-color="#E8E8E8"/>
+    <stop offset="100%" stop-color="#909090"/>
+  </linearGradient>
+  <linearGradient id="silverV" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F5F5F5"/>
+    <stop offset="50%" stop-color="#B8B8B8"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="silverSheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#808080"/>
+    <stop offset="30%" stop-color="#F0F0F0"/>
+    <stop offset="60%" stop-color="#C0C0C0"/>
+    <stop offset="100%" stop-color="#787878"/>
+  </linearGradient>
+  <linearGradient id="oxidised" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#707070"/>
+    <stop offset="40%" stop-color="#505050"/>
+    <stop offset="100%" stop-color="#303030"/>
+  </linearGradient>
+  <radialGradient id="onyx" cx="35%" cy="30%">
+    <stop offset="0%" stop-color="#4A4A4A"/>
+    <stop offset="60%" stop-color="#1A1A1A"/>
+    <stop offset="100%" stop-color="#080808"/>
+  </radialGradient>
+</defs>
+<!-- Sterling chain -->
+<rect x="396" y="130" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="141" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="152" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="163" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="174" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="185" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="196" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="207" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="218" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="229" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="240" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="251" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="262" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="273" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="284" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="295" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="306" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="317" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="328" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="339" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="350" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="361" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="372" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="383" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="394" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="405" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="416" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="427" width="4" height="8" rx="2" fill="url(#silverV)"/><rect x="396" y="438" width="8" height="5" rx="2" fill="url(#silverV)"/><rect x="398" y="449" width="4" height="8" rx="2" fill="url(#silverV)"/>
+<!-- Geometric pendant frame -->
+<g filter="url(#shadow)">
+  <!-- Outer octagonal brushed silver frame -->
+  <polygon points="400,440 448,460 468,510 448,560 400,580 352,560 332,510 352,460" fill="url(#silverSheen)" stroke="#808080" stroke-width="2.5"/>
+  <!-- Brushed texture lines -->
+  <line x1="350" y1="448" x2="450" y2="448" stroke="white" stroke-width="1" opacity="0.2"/><line x1="350" y1="467" x2="450" y2="467" stroke="white" stroke-width="1" opacity="0.2"/><line x1="350" y1="486" x2="450" y2="486" stroke="white" stroke-width="1" opacity="0.2"/><line x1="350" y1="505" x2="450" y2="505" stroke="white" stroke-width="1" opacity="0.2"/><line x1="350" y1="524" x2="450" y2="524" stroke="white" stroke-width="1" opacity="0.2"/><line x1="350" y1="543" x2="450" y2="543" stroke="white" stroke-width="1" opacity="0.2"/><line x1="350" y1="562" x2="450" y2="562" stroke="white" stroke-width="1" opacity="0.2"/>
+  <!-- Onyx stone -->
+  <polygon points="400,452 438,468 454,510 438,552 400,568 362,552 346,510 362,468" fill="url(#onyx)"/>
+  <!-- Onyx shine -->
+  <polygon points="400,452 438,468 418,460" fill="#555" opacity="0.5"/>
+  <!-- Bail -->
+  <rect x="388" y="428" width="24" height="16" rx="8" fill="url(#silverSheen)" stroke="#808080" stroke-width="1.5"/>
+</g>
+
+<g stroke="#C9A84C" stroke-width="1.5" fill="none" opacity="0.3">
+  <path d="M40,40 L40,90 M40,40 L90,40"/>
+  <path d="M760,40 L760,90 M760,40 L710,40"/>
+  <path d="M40,760 L40,710 M40,760 L90,760"/>
+  <path d="M760,760 L760,710 M760,760 L710,760"/>
+</g>
+
+  <text x="400" y="748" font-family="Georgia,serif" font-size="10" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.7">HOUSE OF NANDA · FINE JEWELLERY</text>
+  <text x="400" y="728" font-family="Georgia,serif" font-size="11" fill="#8B6914" text-anchor="middle" letter-spacing="2" opacity="0.6">925 SILVER · NATURAL ONYX · EDGE PENDANT</text>
+</svg>
