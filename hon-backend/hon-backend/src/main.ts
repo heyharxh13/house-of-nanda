@@ -19,7 +19,7 @@ async function bootstrap() {
 
   // CORS — allow Next.js frontend
   app.enableCors({
-    origin: process.env.FRONTEND_URL || 'https://house-of-nanda-deki.vercel.app',
+    origin: '*',
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     credentials: true,
   });
