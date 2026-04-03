@@ -8,8 +8,13 @@ import CartDrawer from "@/components/cart-drawer"
 import ProductReviews from '@/components/product-reviews'
 
 export async function generateStaticParams() {
-  const products = await fetchProducts()
-  return products.map((product: any) => ({ slug: product.slug }))
+  try {
+    const products = await fetchProducts()
+    const arr = Array.isArray(products) ? products : products?.products || []
+    return arr.map((product: any) => ({ slug: product.slug }))
+  } catch {
+    return []
+  }
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
