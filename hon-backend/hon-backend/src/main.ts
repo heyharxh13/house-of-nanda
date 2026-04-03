@@ -26,7 +26,7 @@ async function bootstrap() {
 
   const port = process.env.PORT || 3001;
   await app.listen(port);
-  console.log(`🚀 House of Nanda API running on http://localhost:${port}/api`);
+  console.log(`🚀 House of Nanda API running on http://localhost:4000/api`);
 }
 
 bootstrap();
