@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { ShoppingBag, Package, Users, Star, TrendingUp, Clock } from "lucide-react"
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api"
+const API = process.env.NEXT_PUBLIC_API_URL || "http://https://house-of-nanda.onrender.com/api/api"
 
 function token() { return localStorage.getItem("token") }
 function authHeaders() { return { Authorization: `Bearer ${token()}` } }

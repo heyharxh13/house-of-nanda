@@ -12,7 +12,7 @@ const submit = async () => {
   if (!email.includes("@")) return
   setStatus('loading')
   try {
-    const res = await fetch('http://localhost:3001/api/newsletter/subscribe', {
+    const res = await fetch('http://https://house-of-nanda.onrender.com/api/api/newsletter/subscribe', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email }),

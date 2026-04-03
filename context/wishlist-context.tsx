@@ -4,7 +4,7 @@ import { createContext, useContext, useState, useCallback, useEffect, ReactNode 
 import type { Product } from "@/lib/data"
 import { useAuth } from "@/context/auth-context"
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api"
+const API = process.env.NEXT_PUBLIC_API_URL || "http://https://house-of-nanda.onrender.com/api/api"
 
 // Helper — JWT token localStorage se lega
 function getToken() {

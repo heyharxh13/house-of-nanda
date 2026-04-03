@@ -15,7 +15,7 @@ export default function CheckoutButton({ amount, token, onSuccess }: CheckoutBut
     setLoading(true)
     try {
       // Step 1 — Backend se Razorpay order banao
-      const res = await fetch('http://localhost:3001/api/payments/create-order', {
+      const res = await fetch('http://https://house-of-nanda.onrender.com/api/api/payments/create-order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ export default function CheckoutButton({ amount, token, onSuccess }: CheckoutBut
         order_id: order.id,
         handler: async (response: any) => {
           // Step 3 — Payment verify karo
-          const verifyRes = await fetch('http://localhost:3001/api/payments/verify', {
+          const verifyRes = await fetch('http://https://house-of-nanda.onrender.com/api/api/payments/verify', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

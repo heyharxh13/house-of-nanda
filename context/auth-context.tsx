@@ -10,7 +10,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   )
 
   const login = async (email: string, password: string) => {
-    const res = await fetch('http://localhost:3001/api/auth/login', {
+    const res = await fetch('http://https://house-of-nanda.onrender.com/api/api/auth/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password }),

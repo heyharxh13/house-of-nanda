@@ -13,7 +13,7 @@ export default function ProductReviews({ productId }: { productId: string }) {
 
   useEffect(() => {
     setLoading(true)
-    fetch(`http://localhost:3001/api/reviews/product/${productId}`)
+    fetch(`http://https://house-of-nanda.onrender.com/api/api/reviews/product/${productId}`)
       .then(r => r.json())
       .then(d => { setData(d); setLoading(false) })
   }, [productId, refresh])
@@ -26,7 +26,7 @@ export default function ProductReviews({ productId }: { productId: string }) {
     setSubmitting(true)
     setError('')
 
-    const res = await fetch(`http://localhost:3001/api/reviews/product/${productId}`, {
+    const res = await fetch(`http://https://house-of-nanda.onrender.com/api/api/reviews/product/${productId}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

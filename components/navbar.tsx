@@ -38,7 +38,7 @@ export default function Navbar() {
     if (query.length < 2) { setResults([]); return }
     const timeout = setTimeout(async () => {
       try {
-        const res = await fetch(`http://localhost:3001/api/products?search=${query}`)
+        const res = await fetch(`http://https://house-of-nanda.onrender.com/api/api/products?search=${query}`)
         const data = await res.json()
         setResults(Array.isArray(data) ? data.slice(0, 5) : [])
       } catch {

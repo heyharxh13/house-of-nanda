@@ -7,7 +7,7 @@ import {
   LayoutDashboard, ShoppingBag, Package, Users, Star, LogOut, Menu, X
 } from "lucide-react"
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api"
+const API = process.env.NEXT_PUBLIC_API_URL || "http://https://house-of-nanda.onrender.com/api/api"
 
 const NAV = [
   { label: "Dashboard",  href: "/admin",          icon: LayoutDashboard },

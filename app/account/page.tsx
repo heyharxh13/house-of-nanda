@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 
-const API = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api'
+const API = process.env.NEXT_PUBLIC_API_URL || 'http://https://house-of-nanda.onrender.com/api/api'
 
 export default function AccountPage() {
   const router = useRouter()

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { Search, Truck, ChevronDown } from "lucide-react"
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api"
+const API = process.env.NEXT_PUBLIC_API_URL || "http://https://house-of-nanda.onrender.com/api/api"
 function authHeaders() { return { Authorization: `Bearer ${localStorage.getItem("token")}`, "Content-Type": "application/json" } }
 
 const STATUSES = ["pending", "confirmed", "processing", "shipped", "delivered", "cancelled", "refunded"]

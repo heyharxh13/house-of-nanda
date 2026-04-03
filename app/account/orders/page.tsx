@@ -7,7 +7,7 @@ import Footer from "@/components/footer"
 import CartDrawer from "@/components/cart-drawer"
 import { ArrowLeft, Package, Truck, CheckCircle, XCircle, Clock, ChevronDown, ChevronUp } from "lucide-react"
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api"
+const API = process.env.NEXT_PUBLIC_API_URL || "http://https://house-of-nanda.onrender.com/api/api"
 
 const STATUS_CONFIG: Record<string, { label: string; color: string; icon: any }> = {
   pending:    { label: "Pending",    color: "bg-amber-100 text-amber-700",   icon: Clock },

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { Search, Shield, User } from "lucide-react"
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001/api"
+const API = process.env.NEXT_PUBLIC_API_URL || "http://https://house-of-nanda.onrender.com/api/api"
 function authHeaders() { return { Authorization: `Bearer ${localStorage.getItem("token")}` } }
 
 export default function AdminUsersPage() {
