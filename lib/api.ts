@@ -1,4 +1,4 @@
-const API = process.env.NEXT_PUBLIC_API_URL || 'https://house-of-nanda.onrender.com/api'
+const API = process.env.NEXT_PUBLIC_API_URL || 'https://house-of-nanda.onrender.com'
 
 // ── Products ──────────────────────────────────────────────────────────────────
 export async function fetchProducts(filters?: {
