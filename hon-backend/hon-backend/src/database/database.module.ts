@@ -42,8 +42,8 @@ import { Review } from '../reviews/review.entity';
           Faq,
           Review,
         ],
-        // Auto-create tables in dev — use migrations in production
-        synchronize: config.get('NODE_ENV') !== 'production',
+        synchronize: true,                    // ← auto-create tables
+        ssl: { rejectUnauthorized: false },   // ← required for Aiven
         logging: config.get('NODE_ENV') === 'development',
       }),
     }),
